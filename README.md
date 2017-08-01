@@ -56,5 +56,12 @@ Antebraço	cm
 http://www.maismusculacao.net/calculadoras/
 http://biblioteca.ibge.gov.br/visualizacao/livros/liv50002.pdf
 
+_______________________________________________________
+
+Acho que essa parte de cadastro com imc e medidas para dieta de pontos ou outro tipo de dieta devemos deixar de lado acho que foge do foco que propusemos ao professor, devemos focar no scaneamento de codigos de barras e montagem da tabela nutricional, talvez podemos fazer um repositorio para a pessoa guardar as suas receitas, u mais para frente um sistema de troca de receitas como o professor sugeriu sei lá. Ou você acha que podemos voltar pro lado de dietas, mas o problema que dieta tem trilhões de app.
+
+Achei esse documento da anvisa de como montar e calcular a tabela não sei você ja tem:
+http://portal.anvisa.gov.br/documents/33916/389979/Rotulagem+Nutricional+Obrigat%C3%B3ria+Manual+de+Orienta%C3%A7%C3%A3o+%C3%A0s+Ind%C3%BAstrias+de+Alimentos/ae72b30a-07af-42e2-8b76-10ff96b64ca4
+
 
  
