@@ -1,0 +1,31 @@
+{ 
+	"produtos": [
+		{
+			"ean": 7891910000197,
+			"gtin": 07891910000197,
+			"razao": "DOCELAR ALIMENTOS E BEBIDAS S/A",
+			"produto": "Açúcar Ref. União",
+			"quantidade": 5
+			"unidade": "g"
+			"quantidadeconvert": 1
+			"unidadeconvert": "colher de chá"
+			"infonutri": [
+				"calorias": 20, 
+				"carboidratos": 5.0
+			]	
+		},
+		{
+			"ean": 7894900700015,
+			"gtin": 07894900700015
+			"razao": "COCA COLA INDS LTDA"
+			"produto": "Coca-Cola Zero"
+			"quantidade": 350
+			"unidade": "ml"
+			"quantidadeconvert": 1
+			"unidadeconvert": "lata"
+			"infonutri": [
+				"sodio": 49
+			]	
+		}
+	]
+}
