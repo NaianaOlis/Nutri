@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <project version="5">
-	<proj ListSeperator=";" DefaultDurationUnits="days" DefaultWorkUnits="hours" HoursPerDay="8" HoursPerWeek="40" DaysPerMonth="21.75" ScheduleDisplay="automatic" DefaultStartTime="08:00" DefaultFinishTime="17:00" NADate="" uimode="normal" lockwbs="yes" CalendarUID="0" NavigatorCodes="long" projUID="R030R037RCPA">
+	<proj ListSeperator=";" DefaultDurationUnits="days" DefaultWorkUnits="hours" HoursPerDay="8" HoursPerWeek="40" DaysPerMonth="21.75" ScheduleDisplay="automatic" DefaultStartTime="08:00" DefaultFinishTime="17:00" NADate="" uimode="normal" lockwbs="yes" CalendarUID="0" NavigatorCodes="long" projUID="R030R043RCPA">
 		<calendar name="Standard" uid="0" baseuid="-1">
 			<normalhours s1="08:00" f1="12:00" s2="13:00" f2="17:00"/>
 			<dow day="sun" working="no"/>
@@ -33,20 +33,22 @@
 			<dow day="sat" working="yes"/>
 		</calendar>
 		<currency symbol="R$" digits="2" positiveOrder="2" negativeOrder="9"/>
-		<summary ScheduleFromStart="yes" CalculateCostProgress="yes" MultipleCriticalPaths="no" CriticalSlack="0d" Progress="normal" Name="nutrinfowbs" Calendar="Standard" Title="nutrinfowbs" Duration="99d" ActualDuration="5.9396d" PercentComplete="6%" Start="2017-08-02T08:00" Finish="2017-11-30T17:00" ActualStart="2017-07-17T08:00"/>
+		<summary ScheduleFromStart="yes" CalculateCostProgress="yes" MultipleCriticalPaths="no" CriticalSlack="0d" Progress="normal" Name="nutrinfowbs" Calendar="Standard" Title="nutrinfowbs" Duration="99d" ActualDuration="11.8792d" PercentComplete="12%" Start="2017-08-02T08:00" Finish="2017-11-30T17:00" ActualStart="2017-07-17T08:00"/>
 		<valuelist name="WBS" restrict="no" append="no" autosuffix="yes">
 			<item value="1" desc="Nutrinfo"/>
 			<item value="1" desc="Inicia&#231;&#227;o" level="1"/>
+			<item value="1" desc="#1 Sprint - An&#225;lise Inicial" level="2"/>
 			<item value="2" desc="Planejamento" level="1"/>
-			<item value="1" desc="#1 Sprint " level="2"/>
-			<item value="2" desc="#2  Sprint" level="2"/>
-			<item value="3" desc="#3 Sprint " level="2"/>
+			<item value="1" desc="#2 Sprint - An&#225;lise I" level="2"/>
+			<item value="2" desc="#3  Sprint - An&#225;lise II" level="2"/>
+			<item value="3" desc="#4 Sprint - An&#225;lise III" level="2"/>
 			<item value="3" desc="Execu&#231;&#227;o" level="1"/>
-			<item value="1" desc="#4 Sprint" level="2"/>
-			<item value="2" desc="#5 Sprint" level="2"/>
+			<item value="1" desc="#5 Sprint - Desenvolvimento I" level="2"/>
+			<item value="2" desc="#6 Sprint - Desenvolvimento II" level="2"/>
 			<item value="4" desc="Controle" level="1"/>
+			<item value="1" desc="#7 Sprint - Testes" level="2"/>
 			<item value="5" desc="Encerramento" level="1"/>
-			<item value="1" desc="# Sprint" level="2"/>
+			<item value="1" desc="#8 Sprint - Finaliza&#231;&#227;o" level="2"/>
 		</valuelist>
 		<valuelist name="Outline Code1" restrict="no" append="yes" autosuffix="no">
 		</valuelist>
@@ -69,49 +71,55 @@
 		<valuelist name="Outline Code10" restrict="no" append="yes" autosuffix="no">
 		</valuelist>
 		<groupspec>
-			<outline current="2"/>
+			<outline current="28"/>
 		</groupspec>
 		<tasks>
-			<task ID="0" UniqueID="0" OutlineLevel="0" WBS="0" PercentComplete="6%" Name="nutrinfowbs" ActualDuration="5.9396d" Duration="99d" DurationVariance="99d" RemainingDuration="93.0604d" Start="2017-07-17T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" Critical="yes" Summary="yes"/>
-			<task ID="1" UniqueID="1" OutlineLevel="1" WBS="1" PercentComplete="6%" Name="Nutrinfo" ActualDuration="5.9396d" Duration="99d" DurationVariance="99d" RemainingDuration="93.0604d" Start="2017-07-17T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="2" UniqueID="40" OutlineLevel="2" WBS="1.1" Name="Inicia&#231;&#227;o" FreeSlack="94d" TotalSlack="94d" Duration="5d" DurationVariance="5d" RemainingDuration="5d" Start="2017-07-17T08:00" Finish="2017-07-21T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-07-21T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="3" UniqueID="96" OutlineLevel="3" WBS="1.1.1" Name="Plano de Comunica&#231;&#227;o" FreeSlack="96d" TotalSlack="96d" Duration="3d" DurationVariance="3d" RemainingDuration="3d" ConstraintDate="2017-07-17T08:00" Start="2017-07-17T08:00" Finish="2017-07-19T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-07-19T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="4" UniqueID="47" OutlineLevel="3" WBS="1.1.2" Name="Justificativa" FreeSlack="96d" TotalSlack="96d" Duration="3d" DurationVariance="3d" RemainingDuration="3d" ConstraintDate="2017-07-17T08:00" Start="2017-07-17T08:00" Finish="2017-07-19T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-07-19T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="5" UniqueID="42" OutlineLevel="3" WBS="1.1.3" Name="Objetivos" FreeSlack="94d" TotalSlack="94d" Duration="3d" DurationVariance="3d" RemainingDuration="3d" ConstraintDate="2017-07-19T08:00" Start="2017-07-19T08:00" Finish="2017-07-21T17:00" EarlyStart="2017-07-19T08:00" EarlyFinish="2017-07-21T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="6" UniqueID="41" OutlineLevel="3" WBS="1.1.4" Name="Miss&#227;o" FreeSlack="94d" TotalSlack="94d" Duration="3d" DurationVariance="3d" RemainingDuration="3d" ConstraintDate="2017-07-19T08:00" Start="2017-07-19T08:00" Finish="2017-07-21T17:00" EarlyStart="2017-07-19T08:00" EarlyFinish="2017-07-21T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="7" UniqueID="28" OutlineLevel="2" WBS="1.2" PercentComplete="14%" Name="Planejamento" FreeSlack="66d" TotalSlack="66d" ActualDuration="3.2208d" Duration="23d" DurationVariance="23d" RemainingDuration="19.7792d" Start="2017-07-31T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-31T08:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="8" UniqueID="77" OutlineLevel="3" WBS="1.2.1" PercentComplete="28%" Name="#1 Sprint " FreeSlack="68d" TotalSlack="68d" ActualDuration="5.8792d" Duration="21d" DurationVariance="21d" RemainingDuration="15.1208d" Start="2017-07-31T08:00" Finish="2017-08-28T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-28T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-31T08:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="9" UniqueID="78" OutlineLevel="4" WBS="1.2.1.1" Name="Diagrama de Casos de Uso" FreeSlack="82d" TotalSlack="82d" Duration="7d" DurationVariance="7d" RemainingDuration="7d" ConstraintDate="2017-07-31T08:00" Start="2017-07-31T08:00" Finish="2017-08-08T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-08T17:00" LateStart="2017-11-22T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="10" UniqueID="79" OutlineLevel="4" WBS="1.2.1.2" PercentComplete="51%" Name="Gr&#225;fico de Gantt" FreeSlack="84d" TotalSlack="84d" ActualDuration="2.55d" Duration="5d" DurationVariance="5d" RemainingDuration="2.45d" StartVariance="-3d" ConstraintDate="2017-07-31T08:00" Start="2017-07-31T08:00" Finish="2017-08-04T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-04T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-31T08:00" BaselineStart="2017-08-03T08:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="11" UniqueID="80" OutlineLevel="4" WBS="1.2.1.3" PercentComplete="20%" Name="Levantamento de Requisitos" FreeSlack="68d" TotalSlack="68d" ActualDuration="4d" Duration="20d" DurationVariance="20d" RemainingDuration="16d" StartVariance="11d" ConstraintDate="2017-08-01T08:00" Start="2017-08-01T08:00" Finish="2017-08-28T17:00" EarlyStart="2017-08-01T08:00" EarlyFinish="2017-08-28T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-08-01T08:00" BaselineStart="2017-07-17T08:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="12" UniqueID="81" OutlineLevel="4" WBS="1.2.1.4" PercentComplete="95%" Name="An&#225;lise da Concorr&#234;ncia" FreeSlack="86d" TotalSlack="86d" ActualDuration="1.9d" Duration="2d" DurationVariance="2d" RemainingDuration="0.1d" ConstraintDate="2017-08-01T08:00" Start="2017-08-01T08:00" Finish="2017-08-02T17:00" EarlyStart="2017-08-01T08:00" EarlyFinish="2017-08-02T17:00" LateStart="2017-11-29T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-08-01T08:00" BaselineStart="2017-08-01T08:00" BaselineFinish="2017-08-02T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="13" UniqueID="82" OutlineLevel="4" WBS="1.2.1.5" PercentComplete="51%" Name="WBS" FreeSlack="84d" TotalSlack="84d" ActualDuration="2.55d" Duration="5d" DurationVariance="5d" RemainingDuration="2.45d" StartVariance="-2d" ConstraintDate="2017-07-31T08:00" Start="2017-07-31T08:00" Finish="2017-08-04T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-04T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-31T08:00" BaselineStart="2017-08-02T08:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="14" UniqueID="83" OutlineLevel="3" WBS="1.2.2" Name="#2  Sprint" FreeSlack="72d" TotalSlack="72d" Duration="17d" DurationVariance="17d" RemainingDuration="17d" Start="2017-07-31T08:00" Finish="2017-08-22T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-22T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="15" UniqueID="84" OutlineLevel="4" WBS="1.2.2.1" Name="Prot&#243;tipo das Telas" FreeSlack="80d" TotalSlack="80d" Duration="5d" DurationVariance="5d" RemainingDuration="5d" ConstraintDate="2017-08-04T08:00" Start="2017-08-04T08:00" Finish="2017-08-10T17:00" EarlyStart="2017-08-04T08:00" EarlyFinish="2017-08-10T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="16" UniqueID="85" OutlineLevel="4" WBS="1.2.2.2" Name="Especifica&#231;&#227;o dos Casos de Uso" FreeSlack="73d" TotalSlack="73d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" ConstraintDate="2017-08-10T08:00" Start="2017-08-10T08:00" Finish="2017-08-21T17:00" EarlyStart="2017-08-10T08:00" EarlyFinish="2017-08-21T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="17" UniqueID="86" OutlineLevel="4" WBS="1.2.2.3" Name="Diagrama de Classes" FreeSlack="72d" TotalSlack="72d" Duration="5d" DurationVariance="5d" RemainingDuration="5d" ConstraintDate="2017-08-16T08:00" Start="2017-08-16T08:00" Finish="2017-08-22T17:00" EarlyStart="2017-08-16T08:00" EarlyFinish="2017-08-22T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="18" UniqueID="87" OutlineLevel="4" WBS="1.2.2.4" Name="Plano de Riscos" FreeSlack="84d" TotalSlack="84d" Duration="5d" DurationVariance="5d" RemainingDuration="5d" ConstraintDate="2017-07-31T08:00" Start="2017-07-31T08:00" Finish="2017-08-04T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-04T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="19" UniqueID="65" OutlineLevel="3" WBS="1.2.3" Name="#3 Sprint " FreeSlack="66d" TotalSlack="66d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" Start="2017-08-21T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-08-21T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="20" UniqueID="67" OutlineLevel="4" WBS="1.2.3.1" Name="Diagrama de Fluxo de Dados" FreeSlack="66d" TotalSlack="66d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" ConstraintDate="2017-08-21T08:00" Start="2017-08-21T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-08-21T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="21" UniqueID="66" OutlineLevel="4" WBS="1.2.3.2" Name="Diagrama de Sequ&#234;ncia" FreeSlack="66d" TotalSlack="66d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" ConstraintDate="2017-08-21T08:00" Start="2017-08-21T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-08-21T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="22" UniqueID="26" OutlineLevel="2" WBS="1.3" Name="Execu&#231;&#227;o" FreeSlack="34d" TotalSlack="34d" Duration="35d" DurationVariance="35d" RemainingDuration="35d" Start="2017-08-28T08:00" Finish="2017-10-13T17:00" EarlyStart="2017-08-28T08:00" EarlyFinish="2017-10-13T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="23" UniqueID="88" OutlineLevel="3" WBS="1.3.1" Name="#4 Sprint" FreeSlack="57d" TotalSlack="57d" Duration="12d" DurationVariance="12d" RemainingDuration="12d" Start="2017-08-28T08:00" Finish="2017-09-12T17:00" EarlyStart="2017-08-28T08:00" EarlyFinish="2017-09-12T17:00" LateStart="2017-11-17T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="24" UniqueID="89" OutlineLevel="4" WBS="1.3.1.1" Name="Interface" FreeSlack="62d" TotalSlack="62d" Duration="7d" DurationVariance="7d" RemainingDuration="7d" ConstraintDate="2017-08-28T08:00" Start="2017-08-28T08:00" Finish="2017-09-05T17:00" EarlyStart="2017-08-28T08:00" EarlyFinish="2017-09-05T17:00" LateStart="2017-11-22T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="25" UniqueID="90" OutlineLevel="4" WBS="1.3.1.2" Name="Login" FreeSlack="66d" TotalSlack="66d" Duration="3d" DurationVariance="3d" RemainingDuration="3d" ConstraintDate="2017-08-28T08:00" Start="2017-08-28T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-08-28T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="26" UniqueID="91" OutlineLevel="4" WBS="1.3.1.3" Name="CRUD de Usu&#225;rio" FreeSlack="57d" TotalSlack="57d" Duration="10d" DurationVariance="10d" RemainingDuration="10d" ConstraintDate="2017-08-30T08:00" Start="2017-08-30T08:00" Finish="2017-09-12T17:00" EarlyStart="2017-08-30T08:00" EarlyFinish="2017-09-12T17:00" LateStart="2017-11-17T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="27" UniqueID="72" OutlineLevel="3" WBS="1.3.2" Name="#5 Sprint" FreeSlack="34d" TotalSlack="34d" Duration="20d" DurationVariance="20d" RemainingDuration="20d" Start="2017-09-18T08:00" Finish="2017-10-13T17:00" EarlyStart="2017-09-18T08:00" EarlyFinish="2017-10-13T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="28" UniqueID="76" OutlineLevel="4" WBS="1.3.2.1" Name="CRUD de Receitas" FreeSlack="34d" TotalSlack="34d" Duration="20d" DurationVariance="20d" RemainingDuration="20d" ConstraintDate="2017-09-18T08:00" Start="2017-09-18T08:00" Finish="2017-10-13T17:00" EarlyStart="2017-09-18T08:00" EarlyFinish="2017-10-13T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="29" UniqueID="74" OutlineLevel="4" WBS="1.3.2.2" Name="Scanner" FreeSlack="47d" TotalSlack="47d" Duration="7d" DurationVariance="7d" RemainingDuration="7d" ConstraintDate="2017-09-18T08:00" Start="2017-09-18T08:00" Finish="2017-09-26T17:00" EarlyStart="2017-09-18T08:00" EarlyFinish="2017-09-26T17:00" LateStart="2017-11-22T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="30" UniqueID="73" OutlineLevel="4" WBS="1.3.2.3" Name="C&#225;lculo da Informa&#231;&#245;es" FreeSlack="34d" TotalSlack="34d" Duration="15d" DurationVariance="15d" RemainingDuration="15d" ConstraintDate="2017-09-25T08:00" Start="2017-09-25T08:00" Finish="2017-10-13T17:00" EarlyStart="2017-09-25T08:00" EarlyFinish="2017-10-13T17:00" LateStart="2017-11-10T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="31" UniqueID="19" OutlineLevel="2" WBS="1.4" Name="Controle" FreeSlack="19d" TotalSlack="19d" Duration="20d" DurationVariance="20d" RemainingDuration="20d" Start="2017-10-09T08:00" Finish="2017-11-03T17:00" EarlyStart="2017-10-09T08:00" EarlyFinish="2017-11-03T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="32" UniqueID="36" OutlineLevel="3" WBS="1.4.1" Name="Testes" FreeSlack="19d" TotalSlack="19d" Duration="20d" DurationVariance="20d" RemainingDuration="20d" ConstraintDate="2017-10-09T08:00" Start="2017-10-09T08:00" Finish="2017-11-03T17:00" EarlyStart="2017-10-09T08:00" EarlyFinish="2017-11-03T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="33" UniqueID="2" OutlineLevel="2" WBS="1.5" Name="Encerramento" Duration="19d" DurationVariance="19d" RemainingDuration="19d" Start="2017-11-06T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-11-06T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-11-30T08:00" LateFinish="2017-11-30T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="34" UniqueID="4" OutlineLevel="3" WBS="1.5.1" Name="# Sprint" Duration="19d" DurationVariance="19d" RemainingDuration="19d" Start="2017-11-06T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-11-06T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-11-30T08:00" LateFinish="2017-11-30T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="35" UniqueID="93" OutlineLevel="4" WBS="1.5.1.1" Name="Apresenta&#231;&#227;o" Duration="1d" DurationVariance="1d" ConstraintDate="2017-11-30T08:00" Start="2017-11-30T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-11-30T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-11-30T08:00" LateFinish="2017-11-30T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
-			<task ID="36" UniqueID="92" OutlineLevel="4" WBS="1.5.1.2" Name="P&#250;blica&#231;&#227;o na Google Play" FreeSlack="18d" TotalSlack="18d" Duration="1d" DurationVariance="1d" ConstraintDate="2017-11-06T08:00" Start="2017-11-06T08:00" Finish="2017-11-06T17:00" EarlyStart="2017-11-06T08:00" EarlyFinish="2017-11-06T17:00" LateStart="2017-11-30T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="0" UniqueID="0" OutlineLevel="0" WBS="0" PercentComplete="12%" Name="nutrinfowbs" ActualDuration="11.8792d" Duration="99d" DurationVariance="99d" RemainingDuration="87.1208d" Start="2017-07-17T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-07-31T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" Critical="yes" Summary="yes"/>
+			<task ID="1" UniqueID="1" OutlineLevel="1" WBS="1" PercentComplete="12%" Name="Nutrinfo" ActualDuration="11.8792d" Duration="99d" DurationVariance="99d" RemainingDuration="87.1208d" Start="2017-07-17T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-07-31T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="2" UniqueID="40" OutlineLevel="2" WBS="1.1" PercentComplete="50%" Name="Inicia&#231;&#227;o" FreeSlack="94d" TotalSlack="94d" ActualDuration="2.5d" Duration="5d" DurationVariance="5d" RemainingDuration="2.5d" Start="2017-07-17T08:00" Finish="2017-07-21T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-07-21T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="3" UniqueID="97" OutlineLevel="3" WBS="1.1.1" PercentComplete="50%" Name="#1 Sprint - An&#225;lise Inicial" FreeSlack="94d" TotalSlack="94d" ActualDuration="2.5d" Duration="5d" DurationVariance="5d" RemainingDuration="2.5d" Start="2017-07-17T08:00" Finish="2017-07-21T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-07-21T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="4" UniqueID="98" OutlineLevel="4" WBS="1.1.1.1" PercentComplete="50%" Name="Plano de Comunica&#231;&#227;o" FreeSlack="96d" TotalSlack="96d" ActualDuration="1.5d" Duration="3d" DurationVariance="3d" RemainingDuration="1.5d" StartVariance="-11d" FinishVariance="-12d" Start="2017-07-17T08:00" Finish="2017-07-19T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-07-19T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" BaselineStart="2017-08-01T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="5" UniqueID="99" OutlineLevel="4" WBS="1.1.1.2" PercentComplete="50%" Name="Justificativa" FreeSlack="96d" TotalSlack="96d" ActualDuration="1.5d" Duration="3d" DurationVariance="3d" RemainingDuration="1.5d" StartVariance="-10d" ConstraintDate="2017-07-17T08:00" Start="2017-07-17T08:00" Finish="2017-07-19T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-07-19T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" BaselineStart="2017-07-31T08:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="6" UniqueID="100" OutlineLevel="4" WBS="1.1.1.3" PercentComplete="50%" Name="Objetivos" FreeSlack="94d" TotalSlack="94d" ActualDuration="1.5d" Duration="3d" DurationVariance="3d" RemainingDuration="1.5d" StartVariance="-3d" ConstraintDate="2017-07-19T08:00" Start="2017-07-19T08:00" Finish="2017-07-21T17:00" EarlyStart="2017-07-19T08:00" EarlyFinish="2017-07-21T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-19T08:00" BaselineStart="2017-07-24T08:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="7" UniqueID="101" OutlineLevel="4" WBS="1.1.1.4" PercentComplete="50%" Name="Miss&#227;o" FreeSlack="94d" TotalSlack="94d" ActualDuration="1.5d" Duration="3d" DurationVariance="3d" RemainingDuration="1.5d" StartVariance="-9d" ConstraintDate="2017-07-19T08:00" Start="2017-07-19T08:00" Finish="2017-07-21T17:00" EarlyStart="2017-07-19T08:00" EarlyFinish="2017-07-21T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-19T08:00" BaselineStart="2017-08-01T08:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="8" UniqueID="28" OutlineLevel="2" WBS="1.2" PercentComplete="20%" Name="Planejamento" ActualDuration="4.6d" Duration="23d" DurationVariance="23d" RemainingDuration="18.4d" Start="2017-07-31T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-07-31T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-31T08:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="9" UniqueID="77" OutlineLevel="3" WBS="1.2.1" PercentComplete="39%" Name="#2 Sprint - An&#225;lise I" ActualDuration="8.1896d" Duration="21d" DurationVariance="21d" RemainingDuration="12.8104d" Start="2017-07-31T08:00" Finish="2017-08-28T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-28T17:00" LateStart="2017-07-31T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-31T08:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="10" UniqueID="78" OutlineLevel="4" WBS="1.2.1.1" Name="Diagrama de Casos de Uso" FreeSlack="82d" TotalSlack="82d" Duration="7d" DurationVariance="7d" RemainingDuration="7d" ConstraintDate="2017-07-31T08:00" Start="2017-07-31T08:00" Finish="2017-08-08T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-08T17:00" LateStart="2017-11-22T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="11" UniqueID="79" OutlineLevel="4" WBS="1.2.1.2" PercentComplete="51%" Name="Gr&#225;fico de Gantt" FreeSlack="84d" TotalSlack="84d" ActualDuration="2.55d" Duration="5d" DurationVariance="5d" RemainingDuration="2.45d" StartVariance="-3d" ConstraintDate="2017-07-31T08:00" Start="2017-07-31T08:00" Finish="2017-08-04T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-04T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-31T08:00" BaselineStart="2017-08-03T08:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="12" UniqueID="80" OutlineLevel="4" WBS="1.2.1.3" PercentComplete="20%" Name="Levantamento de Requisitos" FreeSlack="68d" TotalSlack="68d" ActualDuration="4d" Duration="20d" DurationVariance="20d" RemainingDuration="16d" StartVariance="11d" ConstraintDate="2017-08-01T08:00" Start="2017-08-01T08:00" Finish="2017-08-28T17:00" EarlyStart="2017-08-01T08:00" EarlyFinish="2017-08-28T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-08-01T08:00" BaselineStart="2017-07-17T08:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="13" UniqueID="81" OutlineLevel="4" WBS="1.2.1.4" PercentComplete="95%" Name="An&#225;lise da Concorr&#234;ncia" FreeSlack="86d" TotalSlack="86d" ActualDuration="1.9d" Duration="2d" DurationVariance="2d" RemainingDuration="0.1d" ConstraintDate="2017-08-01T08:00" Start="2017-08-01T08:00" Finish="2017-08-02T17:00" EarlyStart="2017-08-01T08:00" EarlyFinish="2017-08-02T17:00" LateStart="2017-11-29T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-08-01T08:00" BaselineStart="2017-08-01T08:00" BaselineFinish="2017-08-02T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="14" UniqueID="82" OutlineLevel="4" WBS="1.2.1.5" PercentComplete="100%" Name="WBS" ActualDuration="8d" Duration="8d" DurationVariance="8d" StartVariance="-2d" Start="2017-07-31T08:00" Finish="2017-08-09T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-09T17:00" LateStart="2017-07-31T08:00" LateFinish="2017-08-09T17:00" ActualStart="2017-07-31T08:00" ActualFinish="2017-08-09T17:00" BaselineStart="2017-08-02T08:00" BaselineFinish="2017-08-09T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="15" UniqueID="83" OutlineLevel="3" WBS="1.2.2" Name="#3  Sprint - An&#225;lise II" FreeSlack="72d" TotalSlack="72d" Duration="17d" DurationVariance="17d" RemainingDuration="17d" Start="2017-07-31T08:00" Finish="2017-08-22T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-22T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="16" UniqueID="84" OutlineLevel="4" WBS="1.2.2.1" Name="Prot&#243;tipo das Telas" FreeSlack="80d" TotalSlack="80d" Duration="5d" DurationVariance="5d" RemainingDuration="5d" ConstraintDate="2017-08-04T08:00" Start="2017-08-04T08:00" Finish="2017-08-10T17:00" EarlyStart="2017-08-04T08:00" EarlyFinish="2017-08-10T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="17" UniqueID="85" OutlineLevel="4" WBS="1.2.2.2" Name="Especifica&#231;&#227;o dos Casos de Uso" FreeSlack="73d" TotalSlack="73d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" ConstraintDate="2017-08-10T08:00" Start="2017-08-10T08:00" Finish="2017-08-21T17:00" EarlyStart="2017-08-10T08:00" EarlyFinish="2017-08-21T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="18" UniqueID="86" OutlineLevel="4" WBS="1.2.2.3" Name="Diagrama de Classes" FreeSlack="72d" TotalSlack="72d" Duration="5d" DurationVariance="5d" RemainingDuration="5d" ConstraintDate="2017-08-16T08:00" Start="2017-08-16T08:00" Finish="2017-08-22T17:00" EarlyStart="2017-08-16T08:00" EarlyFinish="2017-08-22T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="19" UniqueID="87" OutlineLevel="4" WBS="1.2.2.4" Name="Plano de Riscos" FreeSlack="84d" TotalSlack="84d" Duration="5d" DurationVariance="5d" RemainingDuration="5d" ConstraintDate="2017-07-31T08:00" Start="2017-07-31T08:00" Finish="2017-08-04T17:00" EarlyStart="2017-07-31T08:00" EarlyFinish="2017-08-04T17:00" LateStart="2017-11-24T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="20" UniqueID="65" OutlineLevel="3" WBS="1.2.3" Name="#4 Sprint - An&#225;lise III" FreeSlack="66d" TotalSlack="66d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" Start="2017-08-21T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-08-21T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="21" UniqueID="67" OutlineLevel="4" WBS="1.2.3.1" Name="Diagrama de Fluxo de Dados" FreeSlack="66d" TotalSlack="66d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" ConstraintDate="2017-08-21T08:00" Start="2017-08-21T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-08-21T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="22" UniqueID="66" OutlineLevel="4" WBS="1.2.3.2" Name="Diagrama de Sequ&#234;ncia" FreeSlack="66d" TotalSlack="66d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" ConstraintDate="2017-08-21T08:00" Start="2017-08-21T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-08-21T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="23" UniqueID="26" OutlineLevel="2" WBS="1.3" Name="Execu&#231;&#227;o" FreeSlack="34d" TotalSlack="34d" Duration="35d" DurationVariance="35d" RemainingDuration="35d" Start="2017-08-28T08:00" Finish="2017-10-13T17:00" EarlyStart="2017-08-28T08:00" EarlyFinish="2017-10-13T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="24" UniqueID="88" OutlineLevel="3" WBS="1.3.1" Name="#5 Sprint - Desenvolvimento I" FreeSlack="57d" TotalSlack="57d" Duration="12d" DurationVariance="12d" RemainingDuration="12d" Start="2017-08-28T08:00" Finish="2017-09-12T17:00" EarlyStart="2017-08-28T08:00" EarlyFinish="2017-09-12T17:00" LateStart="2017-11-17T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="25" UniqueID="89" OutlineLevel="4" WBS="1.3.1.1" Name="Interface" FreeSlack="62d" TotalSlack="62d" Duration="7d" DurationVariance="7d" RemainingDuration="7d" ConstraintDate="2017-08-28T08:00" Start="2017-08-28T08:00" Finish="2017-09-05T17:00" EarlyStart="2017-08-28T08:00" EarlyFinish="2017-09-05T17:00" LateStart="2017-11-22T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="26" UniqueID="90" OutlineLevel="4" WBS="1.3.1.2" Name="Login" FreeSlack="66d" TotalSlack="66d" Duration="3d" DurationVariance="3d" RemainingDuration="3d" ConstraintDate="2017-08-28T08:00" Start="2017-08-28T08:00" Finish="2017-08-30T17:00" EarlyStart="2017-08-28T08:00" EarlyFinish="2017-08-30T17:00" LateStart="2017-11-28T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="27" UniqueID="91" OutlineLevel="4" WBS="1.3.1.3" Name="CRUD de Usu&#225;rio" FreeSlack="57d" TotalSlack="57d" Duration="10d" DurationVariance="10d" RemainingDuration="10d" ConstraintDate="2017-08-30T08:00" Start="2017-08-30T08:00" Finish="2017-09-12T17:00" EarlyStart="2017-08-30T08:00" EarlyFinish="2017-09-12T17:00" LateStart="2017-11-17T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="28" UniqueID="72" OutlineLevel="3" WBS="1.3.2" Name="#6 Sprint - Desenvolvimento II" FreeSlack="34d" TotalSlack="34d" Duration="20d" DurationVariance="20d" RemainingDuration="20d" Start="2017-09-18T08:00" Finish="2017-10-13T17:00" EarlyStart="2017-09-18T08:00" EarlyFinish="2017-10-13T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="29" UniqueID="76" OutlineLevel="4" WBS="1.3.2.1" Name="CRUD de Receitas" FreeSlack="34d" TotalSlack="34d" Duration="20d" DurationVariance="20d" RemainingDuration="20d" ConstraintDate="2017-09-18T08:00" Start="2017-09-18T08:00" Finish="2017-10-13T17:00" EarlyStart="2017-09-18T08:00" EarlyFinish="2017-10-13T17:00" LateStart="2017-11-03T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="30" UniqueID="74" OutlineLevel="4" WBS="1.3.2.2" Name="Scanner" FreeSlack="47d" TotalSlack="47d" Duration="7d" DurationVariance="7d" RemainingDuration="7d" ConstraintDate="2017-09-18T08:00" Start="2017-09-18T08:00" Finish="2017-09-26T17:00" EarlyStart="2017-09-18T08:00" EarlyFinish="2017-09-26T17:00" LateStart="2017-11-22T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="31" UniqueID="73" OutlineLevel="4" WBS="1.3.2.3" Name="C&#225;lculo da Informa&#231;&#245;es" FreeSlack="34d" TotalSlack="34d" Duration="15d" DurationVariance="15d" RemainingDuration="15d" ConstraintDate="2017-09-25T08:00" Start="2017-09-25T08:00" Finish="2017-10-13T17:00" EarlyStart="2017-09-25T08:00" EarlyFinish="2017-10-13T17:00" LateStart="2017-11-10T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="32" UniqueID="19" OutlineLevel="2" WBS="1.4" Name="Controle" FreeSlack="22d" TotalSlack="22d" Duration="12d" DurationVariance="12d" RemainingDuration="12d" Start="2017-10-16T08:00" Finish="2017-10-31T17:00" EarlyStart="2017-10-16T08:00" EarlyFinish="2017-10-31T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="33" UniqueID="36" OutlineLevel="3" WBS="1.4.1" Name="#7 Sprint - Testes" FreeSlack="22d" TotalSlack="22d" Duration="12d" DurationVariance="12d" RemainingDuration="12d" Start="2017-10-16T08:00" Finish="2017-10-31T17:00" EarlyStart="2017-10-16T08:00" EarlyFinish="2017-10-31T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="34" UniqueID="107" OutlineLevel="4" WBS="1.4.1.1" Name="Planejamento de Testes" FreeSlack="30d" TotalSlack="30d" Duration="4d" DurationVariance="4d" ConstraintDate="2017-10-16T08:00" Start="2017-10-16T08:00" Finish="2017-10-19T17:00" EarlyStart="2017-10-16T08:00" EarlyFinish="2017-10-19T17:00" LateStart="2017-11-27T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="35" UniqueID="102" OutlineLevel="4" WBS="1.4.1.2" Name="Testes Unit&#225;rios" FreeSlack="22d" TotalSlack="22d" Duration="8d" DurationVariance="8d" RemainingDuration="15d" ConstraintDate="2017-10-31T17:00" Start="2017-10-20T08:00" Finish="2017-10-31T17:00" EarlyStart="2017-10-20T08:00" EarlyFinish="2017-10-31T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Finish No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="36" UniqueID="106" OutlineLevel="4" WBS="1.4.1.3" Name="Testes de Integra&#231;&#227;o" FreeSlack="22d" TotalSlack="22d" Duration="8d" DurationVariance="8d" ConstraintDate="2017-10-31T17:00" Start="2017-10-20T08:00" Finish="2017-10-31T17:00" EarlyStart="2017-10-20T08:00" EarlyFinish="2017-10-31T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Finish No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="37" UniqueID="105" OutlineLevel="4" WBS="1.4.1.4" Name="Testes Funcionais" FreeSlack="22d" TotalSlack="22d" Duration="8d" DurationVariance="8d" ConstraintDate="2017-10-31T17:00" Start="2017-10-20T08:00" Finish="2017-10-31T17:00" EarlyStart="2017-10-20T08:00" EarlyFinish="2017-10-31T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Finish No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="38" UniqueID="2" OutlineLevel="2" WBS="1.5" Name="Encerramento" Duration="19d" DurationVariance="19d" RemainingDuration="19d" Start="2017-11-06T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-11-06T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="39" UniqueID="4" OutlineLevel="3" WBS="1.5.1" Name="#8 Sprint - Finaliza&#231;&#227;o" Duration="19d" DurationVariance="19d" RemainingDuration="19d" Start="2017-11-06T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-11-06T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="40" UniqueID="108" OutlineLevel="4" WBS="1.5.1.1" Name="Entrega Documenta&#231;&#227;o" FreeSlack="11d" TotalSlack="11d" Duration="8d" DurationVariance="8d" RemainingDuration="8d" ConstraintDate="2017-11-06T08:00" Start="2017-11-06T08:00" Finish="2017-11-15T17:00" EarlyStart="2017-11-06T08:00" EarlyFinish="2017-11-15T17:00" LateStart="2017-11-21T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="41" UniqueID="93" OutlineLevel="4" WBS="1.5.1.2" Name="Apresenta&#231;&#227;o" Duration="1d" DurationVariance="1d" ConstraintDate="2017-11-30T08:00" Start="2017-11-30T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-11-30T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-11-30T08:00" LateFinish="2017-11-30T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="42" UniqueID="92" OutlineLevel="4" WBS="1.5.1.3" Name="P&#250;blica&#231;&#227;o na Google Play" FreeSlack="18d" TotalSlack="18d" Duration="1d" DurationVariance="1d" ConstraintDate="2017-11-06T08:00" Start="2017-11-06T08:00" Finish="2017-11-06T17:00" EarlyStart="2017-11-06T08:00" EarlyFinish="2017-11-06T17:00" LateStart="2017-11-30T08:00" LateFinish="2017-11-30T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
 		</tasks>
 	</proj>
-	<printInfo mode="scale" orient="landscape" size="9" length="0" width="0" pagesWide="1" pagesHigh="1" scale="100%" bw="no" enlarge="no" byColumn="no" adjustPageBreaks="no" marginTop="36pt" marginLeft="36pt" marginBottom="36pt" marginRight="36pt"/>
+	<printInfo mode="scale" orient="landscape" size="9" length="0" width="0" pagesWide="1" pagesHigh="1" scale="95%" bw="no" enlarge="no" byColumn="no" adjustPageBreaks="no" marginTop="36pt" marginLeft="36pt" marginBottom="36pt" marginRight="36pt"/>
 	<pageLayouts>
 		<pageLayoutSpec id="Gantt Chart Page Layout" BorderLegendFormat="outsideused">
 			<header>
@@ -210,7 +218,7 @@
 			</footer>
 		</pageLayoutSpec>
 	</pageLayouts>
-	<views current="WBS Chart View" current_wbs="WBS Chart View" current_nd="Network Chart View" current_ts="Task Sheet View - Baseline" current_gantt="Gantt Chart View" current_swimlane="Basic Swim Lane View">
+	<views current="Gantt Chart with Slack" current_wbs="WBS Chart View Detailed" current_nd="Network Chart View Basic" current_ts="Tracking Task Sheet View" current_gantt="Gantt Chart with Slack" current_swimlane="Basic Swim Lane View">
 		<ts_view id="Basic Swim Lane View" pagelayout="Gantt Chart Page Layout" ganttchart="yes" swimlanechart="yes" packbars="yes" hidesummarybars="yes" packmilestones="yes" lockfirst="no" fonttextpolicy="outlinelevel" fontfillpolicy="outlinelevel">
 			<columns>
 			</columns>
@@ -560,12 +568,17 @@
 				<column field="ID" aligndata="center" width="40"/>
 				<column field="WBS" aligndata="left" width="48"/>
 				<column field="Name" aligndata="left" width="275"/>
-				<column field="Duration" aligndata="left" width="58"/>
-				<column field="Start" width="69"/>
-				<column field="Finish" width="69"/>
+				<column field="Duration" aligndata="center" width="90"/>
+				<column field="Start" aligndata="center" width="84"/>
+				<column field="Baseline Start" aligndata="center" width="100"/>
+				<column field="Start Variance" aligndata="center" width="89"/>
+				<column field="% Complete" aligndata="center" width="80"/>
+				<column field="Finish" aligndata="center" width="70"/>
+				<column field="Baseline Finish" aligndata="center" width="100"/>
+				<column field="Finish Variance" aligndata="center" width="100"/>
 			</columns>
 			<gantt>
-				<options/>
+				<options zoom="125"/>
 				<grid id="summary" rows="3" cols="5" top="1" left="1" bottom="1" right="3" cliptext="no">
 					<row stretch="yes">
 						<cell halign="right" rowspan="3"/>
@@ -734,7 +747,7 @@
 				<column field="Baseline Start" format="1" aligndata="left" width="65"/>
 				<column field="Start" format="1" width="65"/>
 				<column field="Baseline Finish" format="1" aligndata="left" width="65"/>
-				<column field="Finish" format="1" width="65"/>
+				<column field="Finish" format="1" width="74"/>
 			</columns>
 			<gantt>
 				<options/>
@@ -1480,8 +1493,6 @@
 			<groupspec showempty="yes">
 			</groupspec>
 <nd_diff>
-
-
 </nd_diff>
 
 		</nd_view>
@@ -1568,8 +1579,6 @@
 			<groupspec showempty="yes">
 			</groupspec>
 <nd_diff>
-
-
 </nd_diff>
 
 		</nd_view>
@@ -1609,8 +1618,6 @@
 			<groupspec showempty="yes">
 			</groupspec>
 <nd_diff>
-
-
 </nd_diff>
 
 		</nd_view>
@@ -2019,7 +2026,6 @@
 				<column field="Duration" aligndata="left" width="75"/>
 				<column field="Start" aligndata="left" width="75"/>
 				<column field="Finish" aligndata="left" width="75"/>
-				<column field="Baseline Duration" aligndata="left" width="75"/>
 				<column field="Baseline Start" aligndata="left" width="75"/>
 				<column field="Baseline Finish" aligndata="left" width="75"/>
 				<column field="Duration Variance" aligndata="left" width="75"/>
@@ -2542,8 +2548,6 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
-
-
 </wbs_diff>
 
 		</wbs_view>
@@ -2590,12 +2594,13 @@
 			</groupspec>
 <wbs_diff>
 	<treediff id="79">
-		<item before="2.15pt"/>
+		<item before="2.15pt">
+		</item>
 	</treediff>
 </wbs_diff>
 
 		</wbs_view>
-		<wbs_view id="WBS Chart View Detailed" pagelayout="WBS Chart Page Layout" borderpolicy="criticalpath" borderfillpolicy="criticalpath" bordershadowpolicy="criticalpath" field="Duration">
+		<wbs_view id="WBS Chart View Detailed" pagelayout="WBS Chart Page Layout" zoomlevel="60" borderpolicy="criticalpath" borderfillpolicy="criticalpath" bordershadowpolicy="criticalpath">
 			<connector>
 				<line id="in" width="1.5pt"/>
 				<line id="out" width="1.5pt"/>
@@ -2652,12 +2657,10 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
-
-
 </wbs_diff>
 
 		</wbs_view>
-		<wbs_view id="WBS Chart View" pagelayout="WBS Chart Page Layout" borderpolicy="criticalpath" borderfillpolicy="outlinelevel" bordershadowpolicy="criticalpath">
+		<wbs_view id="WBS Chart View" pagelayout="WBS Chart Page Layout" zoomlevel="60" borderpolicy="criticalpath" borderfillpolicy="outlinelevel" bordershadowpolicy="criticalpath">
 			<connector>
 				<line id="in" width="1.5pt"/>
 				<line id="out" width="1.5pt"/>
@@ -2794,8 +2797,6 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
-
-
 </wbs_diff>
 
 		</wbs_view>
@@ -2882,8 +2883,6 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
-
-
 </wbs_diff>
 
 		</wbs_view>
@@ -2956,8 +2955,6 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
-
-
 </wbs_diff>
 
 		</wbs_view>
@@ -3032,8 +3029,6 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
-
-
 </wbs_diff>
 
 		</wbs_view>
@@ -3130,8 +3125,6 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
-
-
 </wbs_diff>
 
 		</wbs_view>
@@ -3204,8 +3197,6 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
-
-
 </wbs_diff>
 
 		</wbs_view>
