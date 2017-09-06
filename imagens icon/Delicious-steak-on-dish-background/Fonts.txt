@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: Alegreya, 
+Author: Juan Pablo del Peral, 
+Url: http://www.fontsquirrel.com/fonts/alegreya; 
+
+Font: Roboto, 
+Author: Christian Robertson, 
+Url: http://www.fontsquirrel.com/fonts/roboto; 
+

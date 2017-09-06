@@ -1,0 +1,10 @@
+Fonts used in this design;
+
+Font: League Spartan, 
+Author: The League of Moveable Type, 
+Url: http://www.fontsquirrel.com/fonts/league-spartan; 
+
+Font: Dancing script, 
+Author: Impallari Type, 
+Url: https://fonts.google.com/specimen/dancing+script; 
+
