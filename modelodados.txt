@@ -1,0 +1,598 @@
+{
+   _id: POST_ID
+   title: TITLE_OF_POST, 
+   description: POST_DESCRIPTION,
+   by: POST_BY,
+   url: URL_OF_POST,
+   tags: [TAG1, TAG2, TAG3],
+   likes: TOTAL_LIKES, 
+   comments: [	
+      {
+         user:'COMMENT_BY',
+         message: TEXT,
+         dateCreated: DATE_TIME,
+         like: LIKES 
+      },
+      {
+         user:'COMMENT_BY',
+         message: TEXT,
+         dateCreated: DATE_TIME,
+         like: LIKES
+      }
+   ]
+}
+
+----------------------------------------------------------------------------------
+
+
+use nutrinfo
+
+	db.counters.insert(
+	   {
+		  _id: "userid",
+		  seq: 0
+	   }
+	)
+
+	function getNextSequence(name) {
+	   var ret = db.counters.findAndModify(
+			  {
+				query: { _id: name },
+				update: { $inc: { seq: 1 } },
+				new: true
+			  }
+	   );
+	   return ret.seq;
+	}
+
+	db.usuarios.insert({
+		_id: getNextSequence("userid"),
+		nome: 'JOSÉ DA SILVA', 
+		email: 'zedascove@couve.com',
+		senha: '12345',
+		sexo: 'm',
+		altura: 170,
+		historicomedidas: [
+			{
+				data: 25/07/2016,
+				peso: 80.5
+			}
+		]
+	})
+	
+	db.receita.insert({
+		nome: 'Bolacha de nata',
+		usuario: '',
+		ingredientes:[
+			{
+				qtdade: 2,
+				medida: 'copos',
+				nome: 'amido de milho'		
+			},
+			{
+				qtdade: 1,
+				medida: 'xícara',
+				tipo: 'chá',
+				nome: 'farinha de trigo'		
+			},
+			{		
+				qtdade: 1,
+				medida: 'xícara',
+				tipo: 'chá',
+				nome: 'açúcar'		
+			},
+			{ 
+				qtdade: 1,
+				medida: 'xícara',
+				tipo: 'chá',
+				nome: 'nata fresca ou creme de leite fresco'		
+			},
+			{
+				qtdade: 2,
+				medida: 'colheres',
+				tipo: 'sopa',
+				nome: 'margarina'		
+			},
+			{			
+				qtdade: 1,
+				medida: 'colher',
+				tipo: 'sopa',
+				nome: 'fermento químico em pó'	
+			},
+			{
+				qtdade: 1,
+				medida: 'pitada',
+				nome: 'sal',
+			}
+		],
+		modopreparo: [
+			{'Coloque os ingredientes 
+			{'numa batedeira e bata. '},
+			{'por '},
+			{'minutos '},
+			{'Se achar necessário, '},
+			{'Acrescente '},
+			{'até dar ponto '},
+			{'Abra a massa numa superfície lisa '},
+			{'modele '},
+			{'coloque em '}
+			{'uma assadeira 
+			untada
+			com papel-manteiga
+			asse em forno a 
+			°C 
+			minutos, 
+			ou até ficarem douradas. '	
+			hora
+			
+		]
+	})
+   
+   
+
+
+------------------------------------------------
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+__________________________
+var MongoClient = require('mongodb').MongoClient;
+// conexao com o banco de dados
+MongoClient.connect('mongodb://root:tcctads@ds131854.mlab.com:31854/nutrinfo', function (err, db) {
+   
+     db.collection('usuarios', function (err, collection) {        
+        collection.insert({ nome: 'Naiana', email: 'nanikablz@yahoo.com.br' });       
+        db.collection('usuarios').count(function (err, count) {
+            if (err) throw err;            
+            console.log('Total Linhas na coleção : ' + count);
+        });
+    });
+});
+
+
+-------------------------------
+PILHA MEAN
+•	M = MongoDB / Mongoose.js: o banco de dados popular e um elegante ODM para node.js
+
+•	E = Express.js: uma estrutura de aplicativos web leve.
+
+•	A = Angular.js: uma estrutura robusta para criar aplicações web HTML5 e JavaScript ricas em JavaScript.
+
+•	N = Node.js: um interpretador de JavaScript do lado do servidor.
+ 
+Alguns dos códigos comuns de resultados HTTP que são frequentemente usados dentro das APIs REST são os seguintes:
+•	200 - "OK".
+•	201 - "Criado" (usado com POST).
+•	400 - "Pedido ruim" (talvez faltando os parâmetros necessários).
+•	401 - "Não autorizado" (faltando parâmetros de autenticação).
+•	403 - "Proibido" (Você foi autenticado mas sem privilégios necessários).
+•	404 não encontrado".
+
+
+
+
+
+
+
+
+
+"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" --config 
+"C:\Program Files\MongoDB\Server\3.2\mongod.cfg" --install
+
+"C:\Program Files\MongoDB\Server\3.2\bin\mongo.exe"
+cd ..\..\"Program Files\MongoDB\Server\3.2\bin"
+mongod --storageEngine=mmapv1
+"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" --dbpath "C:\data"
+
+
+* sc.exe create MongoDB binPath= "C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe --service --config=\"C:\Program Files\MongoDB\Server\3.2\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"
+
+* net start MongoDB 
+
+* net stop MongoDB
+
+* net stop MongoDB
+  sc.exe delete MongoDB
+  
+   
+	__________________________________________   
+	db.colors.save({name:"red",value:"FF0000"});
+	db.colors.find();
+	
+	db.usuarios.insert(
+		{
+			nome: "Higor Medeiros",
+			cidade: "Porto Alegre",
+			estado: "Rio Grande do Sul"
+		}
+	)
+  
+	db.meudb.save(MeusDados) 
+	MeusDados = {
+		nome: "Higor Medeiros",
+		cidade: "Porto Alegre",
+		estado: "Rio Grande do Sul"
+	}
+	
+	MeusDados = {
+		nome: "Higor Medeiros",
+		endereco: {
+			cidade: "Porto Alegre", 
+			estado: "Rio Grande do Sul"
+		}
+	}
+
+	MeusDados = {
+		nome: "Higor Medeiros",
+		endereco: {
+			cidade: "Porto Alegre", 
+			estado: {
+				nome:"Rio Grande do Sul", 
+				sigla:"RS", 
+				pais:"Brasil"
+			}
+		}
+	}
+  
+	db.usuarios.remove(
+		{
+			estado: "Rio Grande do Sul"
+		}
+	)
+  
+	db.usuarios.update(
+		{
+			cidade:
+				{
+					$eq:"Rio de Janeiro" 
+				}
+		}
+		,$set:
+			{
+				estado: "Rio de Janeiro"
+			}
+		,{
+			multi: true 
+		}
+	)
+  
+	db.usuarios.find(
+		{
+			estado:
+				{ 
+					$eq: "Rio de Janeiro" 
+				} 
+		}
+	)
+  
+	db.usuarios.find(
+		{
+			idade:
+				{
+					$gt:25,
+					$lte:50
+				} 
+		}
+	)
+	
+	db.usuarios.find(
+		{ 
+			nome:/^Higor/ 
+		}
+	)
+	
+	db.usuarios.find(
+		{
+			cidade : "Porto Alegre"
+		}
+		.sort(
+			{
+				nome:1
+			}
+		)
+	)
+  
+	db.usuarios.find(
+		{
+			cidade : "Porto Alegre"
+		}
+		.sort(
+			{
+				nome:-1
+			}
+		)
+	)
+  
+	db.usuarios.find(
+		(
+			'eventos.publicado':($ne: null)
+		)
+	) 
+  
+   
+	__________________________________________  
+
+   
+   db.[nome da coleção].save( objeto a ser salvo )
+   
+	__________________________________________
+   
+	use kico
+   
+	a = {posicao:1, descricao:"Primeira letra do alfabeto"}
+
+	db.alfabeto.save(a)
+
+	a 
+
+	db.alfabeto.save({posicao:5, letra:"e"})
+	
+	documento = db.alfabeto.findOne({posicao:1})
+	documento.bobagem = "Veja, estou incluindo um novo atributo completamente inútil!"
+	db.alfabeto.save(documento)
+	db.alfabeto.remove(documento)
+	__________________________________________
+	
+	
+	
+	//entrar
+	mongo
+
+	//exibir dbs
+	show dbs
+
+	//exibir db corrente
+	db
+
+	//Criando ou acessando um bd existente
+	use exemplo
+	 
+	//Criando uma coleção
+	//não precisa criar coleção
+	//ao inserir um documento automaticamente cria coleção
+	db.createCollection("usuarios")
+		 
+	//Criando um documento
+	db.usuarios.insert({nome: "Felipe", sexo: "Masculino", idade: 40, chefe: true })
+
+	//exibir coleções existentes
+	show collections
+	db.getCollectionNames()
+
+	//Criando outros documentos de usuários
+	db.usuarios.insert({nome: "Marcos", sexo: "Masculino"})
+	db.usuarios.insert({nome: "Júlio", sexo: "Masculino", idade: 25})
+	db.usuarios.insert({nome: "José", sexo: "Masculino"})
+	db.usuarios.insert({nome: "Paulo", sexo: "Masculino", idade: 18})
+
+	//Listando todos os usuários - exibe todos os campos
+	db.usuarios.find()
+	
+	//lista usuarios com nome = jose - exibe todos os campos
+	db.usuarios.find({nome: 'Jose'})
+	
+	//lista usuarios com nome = jose e idade = 26 - exibe todos os campos
+	db.usuarios.find({nome: 'Jose', idade: 26})
+	
+	//lista usuarios com idade maior que 30 - exibe todos os campos
+	db.usuarios.find({idade: {$gt: 30}})
+	
+	//lista usuarios com idade maior que 30 e exibe somente id do objeto e campo idade
+	db.usuarios.find({idade: {$gt: 30}}, {idade: 1})
+	
+	//lista usuarios e não exibe id do objeto, somente campo idade
+	db.usuarios.find(null, {_id:0, idade: 1})
+	
+	//ajuda
+	db.help()
+	
+	//propriedades do banco
+	db.stats()
+	
+	//exclui banco de dados selecionado
+	use exemplo
+	db.dropDatabase()
+	
+	//exclui collection
+	db.usuarios.drop()
+	
+	
+	
+	
+	
+__________________________________________
+
+	database
+	collection 	-> 	tabela
+	document 	-> 	linha(instância)
+	field		-> 	coluna
+
+	_id
+		12 bytes
+		Automático:
+			4	data/hora atual
+			3	id máquina
+			2	id processo servidor mongodb
+			3	incremental simples
+			
+			
+__________________________________________
+
+//Exemplo de modelagem
+
+//Modelo MongoDB
+{
+   _id: POST_ID
+   title: TITLE_OF_POST, 
+   description: POST_DESCRIPTION,
+   by: POST_BY,
+   url: URL_OF_POST,
+   tags: [
+		TAG1, TAG2, TAG3
+	],
+   likes: TOTAL_LIKES, 
+   comments: [	
+      {
+         user:'COMMENT_BY',
+         message: TEXT,
+         dateCreated: DATE_TIME,
+         like: LIKES 
+      },
+      {
+         user:'COMMENT_BY',
+         message: TEXT,
+         dateCreated: DATE_TIME,
+         like: LIKES
+      }
+   ]
+}
+
+//Modelo Relacional 
+TABELAS: comments, post, tag_list
+
+COMMENTS			POST				TAG_LIST
+comment_id			id					id
+post_id				title				post_id
+by_user				description			tag
+message				url	
+data_time			likes
+likes				post_by
+
+relacionamento
+COMMENTS(m)--------(1)POST(1)--------(m)TAG_LIST
+
+
+__________________________________________
+
+use nutrinfo
+
+	db.usuarios.insert({
+		nome: 'JOSÉ DA SILVA', 
+		email: 'zedascove@couve.com',
+		senha: '12345',
+		sexo: 'm',
+		altura: 170,
+		historicomed: [
+			{
+				data: 25/07/2016,
+				peso: 80.5
+			}
+		]
+	})
+	
+	db.receita.insert({
+		nome: 'Bolacha de nata',
+		ingredientes:[
+			{
+				qtdade: 2,
+				medida: 'copos',
+				nome: 'amido de milho'		
+			},
+			{
+				qtdade: 1,
+				medida: 'xícara',
+				tipo: 'chá',
+				nome: 'farinha de trigo'		
+			},
+			{		
+				qtdade: 1,
+				medida: 'xícara',
+				tipo: 'chá',
+				nome: 'açúcar'		
+			},
+			{ 
+				qtdade: 1,
+				medida: 'xícara',
+				tipo: 'chá',
+				nome: 'nata fresca ou creme de leite fresco'		
+			},
+			{
+				qtdade: 2,
+				medida: 'colheres',
+				tipo: 'sopa',
+				nome: 'margarina'		
+			},
+			{			
+				qtdade: 1,
+				medida: 'colher',
+				tipo: 'sopa',
+				nome: 'fermento químico em pó'	
+			},
+			{
+				qtdade: 1,
+				medida: 'pitada',
+				nome: 'sal',
+			}
+		],
+		modopreparo: {
+			'Coloque os ingredientes numa batedeira e bata. Se achar necessário, acrescente leite e um pouco mais de farinha. O ponto certo é quando a massa forma uma bola. Abra a massa numa superfície lisa e modele as bolachas como desejar. Acomode as bolachas em uma assadeira untada e com papel-manteiga e asse em forno a 180°C por cerca de 30 minutos, ou até ficarem douradas. '	
+		}
+	})
+   
+   
+
+
+
+
+
+
+
+
+
+
+   __________________________________________
+   var query = {tags: 'mongodb'}  
+   var mod = {$set: { 'tags.$': 'teste'}}  
+   db.posts.update(query, mod, false, true)  
+   
+   
+   __________________________________________
+   
+   http://donwebajuda.com.br/tutorial-mongodb-criacao-de-banco-de-dados-conexao-remota-e-segura/
+   http://nomadev.com.br/node-js-mongoose-conhecendo-mongoose-parte-1-conexao/
+   http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/
+   http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar-parte-2/
+   
+   http://www.macoratti.net/13/03/net_mongo.htm
+   http://www.macoratti.net/17/04/mongo_cloud1.htm
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+   
+   
