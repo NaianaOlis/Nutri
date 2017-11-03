@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1647" measuredH="2386" mockupW="1456" mockupH="2147">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="2254" measuredH="2449" mockupW="2058" mockupH="2210">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="196" y="243" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
     <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="234" y="355" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="1" locked="false" isInGroup="-1">
@@ -56,8 +56,9 @@
       </controlProperties>
     </control>
     <control controlID="14" controlTypeID="com.balsamiq.mockups::iPhone" x="776" y="239" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="11" locked="false" isInGroup="-1"/>
-    <control controlID="15" controlTypeID="com.balsamiq.mockups::DataGrid" x="808" y="548" w="217" h="102" measuredW="220" measuredH="97" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::DataGrid" x="808" y="548" w="217" h="102" measuredW="204" measuredH="69" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
+        <rowHeight>16</rowHeight>
         <text>Nome%5Cr%20%5E%2C%20Data%20%5Ev%0ASopa%20de%20Aipim%2C%2020/10/2017%0ANhoque%20de%20batata%20%2C%2015/08/2017%0A%7B35L%2C%200R%7D</text>
         <verticalScrollbar>true</verticalScrollbar>
       </controlProperties>
@@ -139,21 +140,22 @@
         <text>Insira%20uma%20palavra-chave</text>
       </controlProperties>
     </control>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::DataGrid" x="1383" y="529" w="217" h="93" measuredW="194" measuredH="90" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::DataGrid" x="1383" y="552" w="218" h="94" measuredW="178" measuredH="62" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
+        <rowHeight>16</rowHeight>
         <size>10</size>
         <text>Name%5Cr%20%5E%2C%20Postado%20por%3A%20%5Ev%0ACrumble%20de%20Ma%E7%E3%2C%20%27Z%E9%20das%20Couve%27%0ATorta%20de%20Ma%E7%E3%2C%20%27Maria%20Joaquina%27%0A%7B55L%2C%2045%7D</text>
         <verticalScrollbar>true</verticalScrollbar>
       </controlProperties>
     </control>
-    <control controlID="43" controlTypeID="com.balsamiq.mockups::RedX" x="1383" y="508" w="10" h="15" measuredW="240" measuredH="104" zOrder="29" locked="false" isInGroup="-1"/>
-    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="1394" y="508" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::RedX" x="1386" y="524" w="10" h="15" measuredW="240" measuredH="104" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="1397" y="524" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
       <controlProperties>
         <text>ma%E7%E3</text>
       </controlProperties>
     </control>
-    <control controlID="45" controlTypeID="com.balsamiq.mockups::iPhone" x="771" y="1051" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="31" locked="false" isInGroup="-1"/>
-    <control controlID="46" controlTypeID="com.balsamiq.mockups::Title" x="804" y="1162" w="113" h="-1" measuredW="105" measuredH="23" zOrder="32" locked="false" isInGroup="-1">
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::iPhone" x="196" y="933" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="31" locked="false" isInGroup="-1"/>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Title" x="229" y="1044" w="113" h="-1" measuredW="105" measuredH="23" zOrder="32" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>40463</color>
@@ -161,51 +163,51 @@
         <text>NUTRINFO</text>
       </controlProperties>
     </control>
-    <control controlID="47" controlTypeID="com.balsamiq.mockups::Link" x="923" y="1172" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="33" locked="false" isInGroup="-1">
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Link" x="348" y="1054" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="33" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Sair</text>
       </controlProperties>
     </control>
-    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="923" y="1155" w="60" h="-1" measuredW="60" measuredH="18" zOrder="34" locked="false" isInGroup="-1">
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="348" y="1037" w="60" h="-1" measuredW="60" measuredH="18" zOrder="34" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Fulano%20de%20Tal</text>
       </controlProperties>
     </control>
-    <control controlID="49" controlTypeID="com.balsamiq.mockups::Webcam" x="985" y="1155" w="36" h="34" measuredW="177" measuredH="146" zOrder="35" locked="false" isInGroup="-1"/>
-    <control controlID="50" controlTypeID="com.balsamiq.mockups::SubTitle" x="810" y="1200" w="-1" h="-1" measuredW="102" measuredH="15" zOrder="36" locked="false" isInGroup="-1">
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Webcam" x="410" y="1037" w="36" h="34" measuredW="177" measuredH="146" zOrder="35" locked="false" isInGroup="-1"/>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::SubTitle" x="235" y="1082" w="-1" h="-1" measuredW="102" measuredH="15" zOrder="36" locked="false" isInGroup="-1">
       <controlProperties>
         <size>12</size>
         <text>Cadastrar%20Receita</text>
       </controlProperties>
     </control>
-    <control controlID="51" controlTypeID="com.balsamiq.mockups::TextInput" x="810" y="1221" w="204" h="-1" measuredW="93" measuredH="24" zOrder="37" locked="false" isInGroup="-1">
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::TextInput" x="235" y="1103" w="204" h="-1" measuredW="93" measuredH="24" zOrder="37" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Nome%20da%20Receita</text>
       </controlProperties>
     </control>
-    <control controlID="53" controlTypeID="com.balsamiq.mockups::List" x="810" y="1374" w="205" h="60" measuredW="100" measuredH="126" zOrder="38" locked="false" isInGroup="-1">
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::List" x="235" y="1256" w="205" h="60" measuredW="100" measuredH="126" zOrder="38" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%20%20%20%202%20Ovos%20%0A%20%20%20%20200g%20de%20Farinha%20de%20Trigo%20</text>
       </controlProperties>
     </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::SubTitle" x="810" y="1350" w="-1" h="-1" measuredW="72" measuredH="15" zOrder="39" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::SubTitle" x="235" y="1232" w="-1" h="-1" measuredW="72" measuredH="15" zOrder="39" locked="false" isInGroup="-1">
       <controlProperties>
         <size>12</size>
         <text>Ingredientes%3A</text>
       </controlProperties>
     </control>
-    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="824" y="1280" w="-1" h="-1" measuredW="168" measuredH="27" zOrder="40" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="249" y="1162" w="-1" h="-1" measuredW="168" measuredH="27" zOrder="40" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>AddPageIcon%7Cxsmall</icon>
         <menuIcon>false</menuIcon>
         <text>Adicionar%20Ingrediente</text>
       </controlProperties>
     </control>
-    <control controlID="56" controlTypeID="com.balsamiq.mockups::iPhone" x="1365" y="1031" w="282" h="521" measuredW="282" measuredH="510" zOrder="41" locked="false" isInGroup="-1"/>
-    <control controlID="57" controlTypeID="com.balsamiq.mockups::Title" x="1398" y="1143" w="113" h="-1" measuredW="105" measuredH="23" zOrder="42" locked="false" isInGroup="-1">
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::iPhone" x="209" y="1871" w="282" h="521" measuredW="282" measuredH="510" zOrder="41" locked="false" isInGroup="-1"/>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Title" x="242" y="1983" w="113" h="-1" measuredW="105" measuredH="23" zOrder="42" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>40463</color>
@@ -213,149 +215,77 @@
         <text>NUTRINFO</text>
       </controlProperties>
     </control>
-    <control controlID="58" controlTypeID="com.balsamiq.mockups::Link" x="1517" y="1153" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="43" locked="false" isInGroup="-1">
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Link" x="361" y="1993" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="43" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Sair</text>
       </controlProperties>
     </control>
-    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="1517" y="1136" w="60" h="-1" measuredW="60" measuredH="18" zOrder="44" locked="false" isInGroup="-1">
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="361" y="1976" w="60" h="-1" measuredW="60" measuredH="18" zOrder="44" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Fulano%20de%20Tal</text>
       </controlProperties>
     </control>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::Webcam" x="1579" y="1136" w="36" h="34" measuredW="177" measuredH="146" zOrder="45" locked="false" isInGroup="-1"/>
-    <control controlID="61" controlTypeID="com.balsamiq.mockups::SubTitle" x="1404" y="1179" w="216" h="-1" measuredW="140" measuredH="19" zOrder="46" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Webcam" x="423" y="1976" w="36" h="34" measuredW="177" measuredH="146" zOrder="45" locked="false" isInGroup="-1"/>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::SubTitle" x="248" y="2019" w="216" h="-1" measuredW="140" measuredH="19" zOrder="46" locked="false" isInGroup="-1">
       <controlProperties>
         <size>16</size>
         <text>Buscar%20Ingrediente</text>
       </controlProperties>
     </control>
-    <control controlID="62" controlTypeID="com.balsamiq.mockups::SearchBox" x="1404" y="1198" w="-1" h="-1" measuredW="174" measuredH="25" zOrder="47" locked="false" isInGroup="-1">
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::SearchBox" x="248" y="2038" w="-1" h="-1" measuredW="174" measuredH="25" zOrder="47" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Insira%20uma%20palavra-chave</text>
       </controlProperties>
     </control>
-    <control controlID="63" controlTypeID="com.balsamiq.mockups::DataGrid" x="1398" y="1318" w="209" h="78" measuredW="179" measuredH="108" zOrder="48" locked="false" isInGroup="-1">
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::DataGrid" x="242" y="2162" w="209" h="68" measuredW="163" measuredH="66" zOrder="48" locked="false" isInGroup="-1">
       <controlProperties>
+        <rowHeight>16</rowHeight>
         <size>10</size>
         <text>Name%20%5Ev%0ABanana%20ma%E7%E3%20crua%0AMa%E7%E3%20Argentina%20com%20casca%20crua%0AMa%E7%E3%20Fuji%20com%20casca%20crua%0A%7B55L%7D</text>
         <verticalScrollbar>true</verticalScrollbar>
       </controlProperties>
     </control>
-    <control controlID="66" controlTypeID="com.balsamiq.mockups::SubTitle" x="1420" y="1228" w="31" h="-1" measuredW="18" measuredH="19" zOrder="50" locked="false" isInGroup="-1">
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::SubTitle" x="264" y="2068" w="31" h="-1" measuredW="18" measuredH="19" zOrder="50" locked="false" isInGroup="-1">
       <controlProperties>
         <size>16</size>
         <text>ou</text>
       </controlProperties>
     </control>
-    <control controlID="67" controlTypeID="com.balsamiq.mockups::Button" x="1443" y="1228" w="-1" h="-1" measuredW="151" measuredH="27" zOrder="49" locked="false" isInGroup="-1">
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Button" x="287" y="2068" w="-1" h="-1" measuredW="151" measuredH="27" zOrder="49" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>VLinesIcon%7Csmall</icon>
         <text>C%F3digo%20de%20Barras</text>
       </controlProperties>
     </control>
-    <control controlID="69" controlTypeID="com.balsamiq.mockups::NumericStepper" x="1400" y="1292" w="-1" h="-1" measuredW="39" measuredH="24" zOrder="51" locked="false" isInGroup="-1">
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::NumericStepper" x="244" y="2132" w="-1" h="-1" measuredW="39" measuredH="24" zOrder="51" locked="false" isInGroup="-1">
       <controlProperties>
         <text>1</text>
       </controlProperties>
     </control>
-    <control controlID="70" controlTypeID="com.balsamiq.mockups::ComboBox" x="1448" y="1292" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="52" locked="false" isInGroup="-1">
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::ComboBox" x="292" y="2132" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="52" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Unidade</text>
       </controlProperties>
     </control>
-    <control controlID="73" controlTypeID="com.balsamiq.mockups::Button" x="953" y="1441" w="-1" h="-1" measuredW="61" measuredH="27" zOrder="53" locked="false" isInGroup="-1">
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Button" x="378" y="1323" w="-1" h="-1" measuredW="61" measuredH="27" zOrder="53" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Pronto</text>
       </controlProperties>
     </control>
-    <control controlID="74" controlTypeID="com.balsamiq.mockups::iPhone" x="191" y="1002" w="298" h="668" measuredW="282" measuredH="510" zOrder="54" locked="false" isInGroup="-1"/>
-    <control controlID="75" controlTypeID="com.balsamiq.mockups::Title" x="230" y="1178" w="113" h="-1" measuredW="105" measuredH="23" zOrder="55" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>40463</color>
-        <size>20</size>
-        <text>NUTRINFO</text>
-      </controlProperties>
-    </control>
-    <control controlID="76" controlTypeID="com.balsamiq.mockups::Link" x="349" y="1188" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="56" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>10</size>
-        <text>Sair</text>
-      </controlProperties>
-    </control>
-    <control controlID="77" controlTypeID="com.balsamiq.mockups::Label" x="349" y="1171" w="60" h="-1" measuredW="60" measuredH="18" zOrder="57" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>10</size>
-        <text>Fulano%20de%20Tal</text>
-      </controlProperties>
-    </control>
-    <control controlID="78" controlTypeID="com.balsamiq.mockups::Webcam" x="411" y="1171" w="36" h="34" measuredW="177" measuredH="146" zOrder="58" locked="false" isInGroup="-1"/>
-    <control controlID="84" controlTypeID="com.balsamiq.mockups::SubTitle" x="235" y="1209" w="-1" h="-1" measuredW="141" measuredH="21" zOrder="59" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>18</size>
-        <text>Crumble%20de%20Ma%E7%E3</text>
-      </controlProperties>
-    </control>
-    <control controlID="85" controlTypeID="com.balsamiq.mockups::SubTitle" x="237" y="1230" w="-1" h="-1" measuredW="84" measuredH="17" zOrder="60" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>14</size>
-        <text>Ingredientes%3A</text>
-      </controlProperties>
-    </control>
-    <control controlID="87" controlTypeID="com.balsamiq.mockups::TextArea" x="235" y="1247" w="200" h="69" measuredW="200" measuredH="140" zOrder="61" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>10</size>
-        <text>1%20kg%20de%20ma%E7%E3s%20descascadas%20e%20cortadas%20em%20cubos%0A1%20colher%20de%20ch%E1%20de%20canela%20em%20p%F3%0A200%20g%20de%20farinha%20de%20trigo%0A150%20g%20a%E7%FAcar%0A150%20g%20de%20manteiga</text>
-        <verticalScrollbar>true</verticalScrollbar>
-      </controlProperties>
-    </control>
-    <control controlID="89" controlTypeID="com.balsamiq.mockups::SubTitle" x="237" y="1322" w="-1" h="-1" measuredW="111" measuredH="17" zOrder="62" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>14</size>
-        <text>Modo%20de%20Preparo%3A</text>
-      </controlProperties>
-    </control>
-    <control controlID="90" controlTypeID="com.balsamiq.mockups::TextArea" x="235" y="1339" w="200" h="68" measuredW="200" measuredH="140" zOrder="63" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>10</size>
-        <text>1.%20Numa%20ta%E7a%20coloque%20a%20farinha%2C%20100%20g%20de%20a%E7%FAcar%20e%20a%20manteiga%0A2.%20Com%20a%20pontas%20dos%20dedos%2C%20misture%20a%20manteiga%20com%20os%20restantes%20ingredientes%0A3.%20O%20resultado%20%E9%20uma%20mistura%20granulada%20e%20fofa%0A4.%20Coloque%20a%20ma%E7%E3%20numa%20assadeira%20e%20polvilhe%20com%20a%20canela%20e%20com%2050%20g%20de%20a%E7%FAcar.%20Envolva%20com%20uma%20colher</text>
-        <verticalScrollbar>true</verticalScrollbar>
-      </controlProperties>
-    </control>
-    <control controlID="91" controlTypeID="com.balsamiq.mockups::DataGrid" x="235" y="1427" w="215" h="51" measuredW="224" measuredH="258" zOrder="64" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>10</size>
-        <text>Quantidade%3A%201%20unidade%2C%20%2865%20g%29%20por%20por%E7%E3o%0ACalorias%09228%20kcal%0ACarboidratos%0933%20g%0AProte%EDnas%092.5%20g%0AGorduras%0910%20g%0AGordura%20Saturada%091.8%20g%0AGordura%20Trans%090.4%20g%0AFibras%091.1%20g%0AS%F3dio%0924%20mg%0A%7B65L%2C%200R%7D</text>
-        <verticalScrollbar>true</verticalScrollbar>
-      </controlProperties>
-    </control>
-    <control controlID="92" controlTypeID="com.balsamiq.mockups::SubTitle" x="239" y="1410" w="-1" h="-1" measuredW="116" measuredH="17" zOrder="65" locked="false" isInGroup="-1">
-      <controlProperties>
-        <size>14</size>
-        <text>Tabela%20Nutricional%3A</text>
-      </controlProperties>
-    </control>
-    <control controlID="93" controlTypeID="com.balsamiq.mockups::Button" x="355" y="1483" w="89" h="34" measuredW="76" measuredH="27" zOrder="66" locked="false" isInGroup="-1">
-      <controlProperties>
-        <icon>JumpBackIcon%7Cxsmall</icon>
-        <text>Voltar</text>
-      </controlProperties>
-    </control>
-    <control controlID="95" controlTypeID="com.balsamiq.mockups::Button" x="1399" y="1401" w="-1" h="-1" measuredW="206" measuredH="27" zOrder="67" locked="false" isInGroup="-1">
+    <control controlID="95" controlTypeID="com.balsamiq.mockups::Button" x="243" y="2237" w="-1" h="-1" measuredW="206" measuredH="27" zOrder="54" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Incluir%20Ingrediente%20Selecionado</text>
       </controlProperties>
     </control>
-    <control controlID="96" controlTypeID="com.balsamiq.mockups::Button" x="1412" y="1432" w="-1" h="-1" measuredW="187" measuredH="27" zOrder="68" locked="false" isInGroup="-1">
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::Button" x="256" y="2268" w="-1" h="-1" measuredW="187" measuredH="27" zOrder="55" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Cadastrar%20Novo%20Ingrediente</text>
       </controlProperties>
     </control>
-    <control controlID="97" controlTypeID="com.balsamiq.mockups::iPhone" x="330" y="1876" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="69" locked="false" isInGroup="-1"/>
-    <control controlID="109" controlTypeID="com.balsamiq.mockups::Title" x="362" y="1983" w="113" h="-1" measuredW="105" measuredH="23" zOrder="70" locked="false" isInGroup="-1">
+    <control controlID="97" controlTypeID="com.balsamiq.mockups::iPhone" x="732" y="1876" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="56" locked="false" isInGroup="-1"/>
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::Title" x="764" y="1983" w="113" h="-1" measuredW="105" measuredH="23" zOrder="57" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>40463</color>
@@ -363,43 +293,43 @@
         <text>NUTRINFO</text>
       </controlProperties>
     </control>
-    <control controlID="110" controlTypeID="com.balsamiq.mockups::Link" x="481" y="1993" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="71" locked="false" isInGroup="-1">
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::Link" x="883" y="1993" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="58" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Sair</text>
       </controlProperties>
     </control>
-    <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="481" y="1976" w="60" h="-1" measuredW="60" measuredH="18" zOrder="72" locked="false" isInGroup="-1">
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="883" y="1976" w="60" h="-1" measuredW="60" measuredH="18" zOrder="59" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Fulano%20de%20Tal</text>
       </controlProperties>
     </control>
-    <control controlID="112" controlTypeID="com.balsamiq.mockups::Webcam" x="543" y="1976" w="36" h="34" measuredW="177" measuredH="146" zOrder="73" locked="false" isInGroup="-1"/>
-    <control controlID="113" controlTypeID="com.balsamiq.mockups::SubTitle" x="373" y="2032" w="-1" h="-1" measuredW="94" measuredH="15" zOrder="74" locked="false" isInGroup="-1">
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::Webcam" x="945" y="1976" w="36" h="34" measuredW="177" measuredH="146" zOrder="60" locked="false" isInGroup="-1"/>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::SubTitle" x="775" y="2032" w="-1" h="-1" measuredW="94" measuredH="15" zOrder="61" locked="false" isInGroup="-1">
       <controlProperties>
         <size>12</size>
         <text>Crumble%20de%20Ma%E7%E3</text>
       </controlProperties>
     </control>
-    <control controlID="115" controlTypeID="com.balsamiq.mockups::List" x="368" y="2071" w="205" h="155" measuredW="100" measuredH="126" zOrder="75" locked="false" isInGroup="-1">
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::List" x="770" y="2071" w="205" h="155" measuredW="100" measuredH="126" zOrder="62" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="116" controlTypeID="com.balsamiq.mockups::SubTitle" x="373" y="2056" w="-1" h="-1" measuredW="96" measuredH="15" zOrder="76" locked="false" isInGroup="-1">
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::SubTitle" x="775" y="2056" w="-1" h="-1" measuredW="96" measuredH="15" zOrder="63" locked="false" isInGroup="-1">
       <controlProperties>
         <size>12</size>
         <text>Modo%20de%20Preparo%3A</text>
       </controlProperties>
     </control>
-    <control controlID="118" controlTypeID="com.balsamiq.mockups::Button" x="500" y="2252" w="-1" h="-1" measuredW="61" measuredH="27" zOrder="77" locked="false" isInGroup="-1">
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::Button" x="902" y="2252" w="-1" h="-1" measuredW="61" measuredH="27" zOrder="64" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Pronto</text>
       </controlProperties>
     </control>
-    <control controlID="119" controlTypeID="com.balsamiq.mockups::iPhone" x="1116" y="1809" w="282" h="521" measuredW="282" measuredH="510" zOrder="78" locked="false" isInGroup="-1"/>
-    <control controlID="120" controlTypeID="com.balsamiq.mockups::Title" x="1149" y="1921" w="113" h="-1" measuredW="105" measuredH="23" zOrder="79" locked="false" isInGroup="-1">
+    <control controlID="119" controlTypeID="com.balsamiq.mockups::iPhone" x="1972" y="1884" w="282" h="521" measuredW="282" measuredH="510" zOrder="65" locked="false" isInGroup="-1"/>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Title" x="2005" y="1996" w="113" h="-1" measuredW="105" measuredH="23" zOrder="66" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>40463</color>
@@ -407,138 +337,331 @@
         <text>NUTRINFO</text>
       </controlProperties>
     </control>
-    <control controlID="121" controlTypeID="com.balsamiq.mockups::Link" x="1268" y="1931" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="80" locked="false" isInGroup="-1">
+    <control controlID="121" controlTypeID="com.balsamiq.mockups::Link" x="2124" y="2006" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="67" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Sair</text>
       </controlProperties>
     </control>
-    <control controlID="122" controlTypeID="com.balsamiq.mockups::Label" x="1268" y="1914" w="60" h="-1" measuredW="60" measuredH="18" zOrder="81" locked="false" isInGroup="-1">
+    <control controlID="122" controlTypeID="com.balsamiq.mockups::Label" x="2124" y="1989" w="60" h="-1" measuredW="60" measuredH="18" zOrder="68" locked="false" isInGroup="-1">
       <controlProperties>
         <size>10</size>
         <text>Fulano%20de%20Tal</text>
       </controlProperties>
     </control>
-    <control controlID="123" controlTypeID="com.balsamiq.mockups::Webcam" x="1330" y="1914" w="36" h="34" measuredW="177" measuredH="146" zOrder="82" locked="false" isInGroup="-1"/>
-    <control controlID="124" controlTypeID="com.balsamiq.mockups::SubTitle" x="1155" y="1957" w="216" h="-1" measuredW="124" measuredH="19" zOrder="83" locked="false" isInGroup="-1">
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Webcam" x="2186" y="1989" w="36" h="34" measuredW="177" measuredH="146" zOrder="69" locked="false" isInGroup="-1"/>
+    <control controlID="124" controlTypeID="com.balsamiq.mockups::SubTitle" x="2011" y="2032" w="216" h="-1" measuredW="124" measuredH="19" zOrder="70" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <size>16</size>
         <text>Novo%20Ingrediente</text>
       </controlProperties>
     </control>
-    <control controlID="127" controlTypeID="com.balsamiq.mockups::Button" x="1149" y="1977" w="-1" h="-1" measuredW="194" measuredH="27" zOrder="84" locked="false" isInGroup="-1">
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::Button" x="2005" y="2052" w="-1" h="-1" measuredW="194" measuredH="27" zOrder="71" locked="false" isInGroup="-1">
       <controlProperties>
         <icon>VLinesIcon%7Csmall</icon>
         <text>Inserir%20C%F3digo%20de%20Barras</text>
       </controlProperties>
     </control>
-    <control controlID="128" controlTypeID="com.balsamiq.mockups::SubTitle" x="1152" y="2075" w="195" h="-1" measuredW="133" measuredH="19" zOrder="85" locked="false" isInGroup="-1">
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::SubTitle" x="2008" y="2150" w="195" h="-1" measuredW="133" measuredH="19" zOrder="72" locked="false" isInGroup="-1">
       <controlProperties>
         <size>16</size>
         <text>Tabela%20Nutricional%3A</text>
       </controlProperties>
     </control>
-    <control controlID="132" controlTypeID="com.balsamiq.mockups::Button" x="1275" y="2210" w="-1" h="-1" measuredW="83" measuredH="27" zOrder="86" locked="false" isInGroup="-1">
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::Button" x="2131" y="2285" w="-1" h="-1" measuredW="83" measuredH="27" zOrder="73" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Cadastrar</text>
       </controlProperties>
     </control>
-    <control controlID="133" controlTypeID="com.balsamiq.mockups::TextInput" x="1152" y="2009" w="206" h="-1" measuredW="116" measuredH="27" zOrder="87" locked="false" isInGroup="-1">
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::TextInput" x="2008" y="2084" w="206" h="-1" measuredW="116" measuredH="27" zOrder="74" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Nome%20do%20Produto</text>
       </controlProperties>
     </control>
-    <control controlID="134" controlTypeID="com.balsamiq.mockups::TextInput" x="1152" y="2043" w="206" h="-1" measuredW="51" measuredH="27" zOrder="88" locked="false" isInGroup="-1">
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::TextInput" x="2008" y="2118" w="206" h="-1" measuredW="51" measuredH="27" zOrder="75" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Marca</text>
       </controlProperties>
     </control>
-    <control controlID="135" controlTypeID="com.balsamiq.mockups::Label" x="1152" y="2094" w="-1" h="-1" measuredW="45" measuredH="22" zOrder="89" locked="false" isInGroup="-1">
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::Label" x="2008" y="2169" w="-1" h="-1" measuredW="45" measuredH="22" zOrder="76" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
         <text>Por%E7%E3o%3A</text>
       </controlProperties>
     </control>
-    <control controlID="136" controlTypeID="com.balsamiq.mockups::TextInput" x="1201" y="2093" w="48" h="-1" measuredW="79" measuredH="26" zOrder="90" locked="false" isInGroup="-1">
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::TextInput" x="2057" y="2168" w="48" h="-1" measuredW="79" measuredH="26" zOrder="77" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="137" controlTypeID="com.balsamiq.mockups::ComboBox" x="1255" y="2095" w="-1" h="-1" measuredW="74" measuredH="24" zOrder="91" locked="false" isInGroup="-1">
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::ComboBox" x="2111" y="2170" w="-1" h="-1" measuredW="74" measuredH="24" zOrder="78" locked="false" isInGroup="-1">
       <controlProperties>
         <text>gramas</text>
       </controlProperties>
     </control>
-    <control controlID="138" controlTypeID="com.balsamiq.mockups::Label" x="1149" y="2126" w="-1" h="-1" measuredW="56" measuredH="22" zOrder="92" locked="false" isInGroup="-1">
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::Label" x="2005" y="2201" w="-1" h="-1" measuredW="56" measuredH="22" zOrder="79" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
         <text>Prote%EDna%3A</text>
       </controlProperties>
     </control>
-    <control controlID="139" controlTypeID="com.balsamiq.mockups::TextInput" x="1222" y="2124" w="48" h="-1" measuredW="79" measuredH="26" zOrder="93" locked="false" isInGroup="-1">
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::TextInput" x="2078" y="2199" w="48" h="-1" measuredW="79" measuredH="26" zOrder="80" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="141" controlTypeID="com.balsamiq.mockups::Label" x="1278" y="2126" w="-1" h="-1" measuredW="10" measuredH="22" zOrder="94" locked="false" isInGroup="-1">
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::Label" x="2134" y="2201" w="-1" h="-1" measuredW="10" measuredH="22" zOrder="81" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
         <text>g</text>
       </controlProperties>
     </control>
-    <control controlID="142" controlTypeID="com.balsamiq.mockups::Label" x="1149" y="2152" w="-1" h="-1" measuredW="56" measuredH="22" zOrder="95" locked="false" isInGroup="-1">
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::Label" x="2005" y="2227" w="-1" h="-1" measuredW="56" measuredH="22" zOrder="82" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
         <text>Lip%EDdeos%3A</text>
       </controlProperties>
     </control>
-    <control controlID="143" controlTypeID="com.balsamiq.mockups::TextInput" x="1222" y="2150" w="48" h="-1" measuredW="79" measuredH="26" zOrder="96" locked="false" isInGroup="-1">
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::TextInput" x="2078" y="2225" w="48" h="-1" measuredW="79" measuredH="26" zOrder="83" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="144" controlTypeID="com.balsamiq.mockups::Label" x="1278" y="2152" w="-1" h="-1" measuredW="10" measuredH="22" zOrder="97" locked="false" isInGroup="-1">
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Label" x="2134" y="2227" w="-1" h="-1" measuredW="10" measuredH="22" zOrder="84" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
         <text>g</text>
       </controlProperties>
     </control>
-    <control controlID="145" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="1301" y="2126" w="-1" h="75" measuredW="16" measuredH="100" zOrder="98" locked="false" isInGroup="-1"/>
-    <control controlID="146" controlTypeID="com.balsamiq.mockups::Label" x="1149" y="2180" w="-1" h="-1" measuredW="68" measuredH="22" zOrder="99" locked="false" isInGroup="-1">
+    <control controlID="145" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="2157" y="2201" w="-1" h="75" measuredW="16" measuredH="100" zOrder="85" locked="false" isInGroup="-1"/>
+    <control controlID="146" controlTypeID="com.balsamiq.mockups::Label" x="2005" y="2255" w="-1" h="-1" measuredW="68" measuredH="22" zOrder="86" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
         <text>Colesterol%3A</text>
       </controlProperties>
     </control>
-    <control controlID="147" controlTypeID="com.balsamiq.mockups::TextInput" x="1222" y="2178" w="48" h="-1" measuredW="79" measuredH="26" zOrder="100" locked="false" isInGroup="-1">
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::TextInput" x="2078" y="2253" w="48" h="-1" measuredW="79" measuredH="26" zOrder="87" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="148" controlTypeID="com.balsamiq.mockups::Label" x="1278" y="2180" w="-1" h="-1" measuredW="21" measuredH="22" zOrder="101" locked="false" isInGroup="-1">
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::Label" x="2134" y="2255" w="-1" h="-1" measuredW="21" measuredH="22" zOrder="88" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
         <text>mg</text>
       </controlProperties>
     </control>
-    <control controlID="149" controlTypeID="com.balsamiq.mockups::Button" x="1451" y="485" w="-1" h="-1" measuredW="82" measuredH="27" zOrder="102" locked="false" isInGroup="-1">
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::Button" x="1443" y="497" w="-1" h="-1" measuredW="82" measuredH="27" zOrder="89" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Pesquisar</text>
       </controlProperties>
     </control>
-    <control controlID="150" controlTypeID="com.balsamiq.mockups::Button" x="1502" y="628" w="89" h="34" measuredW="76" measuredH="27" zOrder="103" locked="false" isInGroup="-1">
-      <controlProperties>
-        <icon>JumpBackIcon%7Cxsmall</icon>
-        <text>Voltar</text>
-      </controlProperties>
-    </control>
-    <control controlID="151" controlTypeID="com.balsamiq.mockups::Button" x="1528" y="1258" w="-1" h="-1" measuredW="82" measuredH="27" zOrder="104" locked="false" isInGroup="-1">
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::Button" x="372" y="2098" w="-1" h="-1" measuredW="82" measuredH="27" zOrder="90" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Pesquisar</text>
       </controlProperties>
     </control>
-    <control controlID="154" controlTypeID="com.balsamiq.mockups::RedX" x="814" y="1378" w="19" h="18" measuredW="240" measuredH="104" zOrder="105" locked="false" isInGroup="-1"/>
-    <control controlID="155" controlTypeID="com.balsamiq.mockups::RedX" x="814" y="1398" w="19" h="18" measuredW="240" measuredH="104" zOrder="106" locked="false" isInGroup="-1"/>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::RedX" x="239" y="1260" w="19" h="18" measuredW="240" measuredH="104" zOrder="91" locked="false" isInGroup="-1"/>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::RedX" x="239" y="1280" w="19" h="18" measuredW="240" measuredH="104" zOrder="92" locked="false" isInGroup="-1"/>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::Alert" x="223" y="1454" w="229" h="133" measuredW="200" measuredH="133" zOrder="93" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Receita%0ADeseja%20cadastrar%20o%20modo%20de%20preparo%3F%0AN%E3o%2C%20Sim</text>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::ProgressBar" x="235" y="1609" w="197" h="20" measuredW="100" measuredH="20" zOrder="94" locked="false" isInGroup="-1"/>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Label" x="208" y="1636" w="-1" h="-1" measuredW="284" measuredH="21" zOrder="95" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Por%20favor%2C%20aguarde...%20Gerando%20Tabela%20Nutricional...</text>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::iPhone" x="779" y="945" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="96" locked="false" isInGroup="-1"/>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Title" x="812" y="1057" w="113" h="-1" measuredW="105" measuredH="23" zOrder="97" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>40463</color>
+        <size>20</size>
+        <text>NUTRINFO</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Link" x="931" y="1067" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="98" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>Sair</text>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Label" x="931" y="1050" w="60" h="-1" measuredW="60" measuredH="18" zOrder="99" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>Fulano%20de%20Tal</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Webcam" x="995" y="1044" w="36" h="34" measuredW="177" measuredH="146" zOrder="100" locked="false" isInGroup="-1"/>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::DataGrid" x="811" y="1252" w="221" h="85" measuredW="176" measuredH="53" zOrder="101" locked="false" isInGroup="-1">
+      <controlProperties>
+        <rowHeight>16</rowHeight>
+        <size>13</size>
+        <text>Name%20%5E%0A%5Cr%20Refrigerante%20Furreca%20Cola%0A%7B75L%7D</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::SubTitle" x="815" y="1094" w="216" h="-1" measuredW="160" measuredH="19" zOrder="102" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Consultar%20Ingrediente</text>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::SearchBox" x="815" y="1123" w="-1" h="-1" measuredW="174" measuredH="25" zOrder="103" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Insira%20uma%20palavra-chave</text>
+      </controlProperties>
+    </control>
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::Button" x="854" y="1153" w="-1" h="-1" measuredW="151" measuredH="27" zOrder="104" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>VLinesIcon%7Csmall</icon>
+        <text>C%F3digo%20de%20Barras</text>
+      </controlProperties>
+    </control>
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::SubTitle" x="831" y="1153" w="31" h="-1" measuredW="18" measuredH="19" zOrder="105" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>ou</text>
+      </controlProperties>
+    </control>
+    <control controlID="176" controlTypeID="com.balsamiq.mockups::Button" x="939" y="1183" w="-1" h="-1" measuredW="82" measuredH="27" zOrder="106" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pesquisar</text>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Button" x="817" y="1302" w="-1" h="-1" measuredW="190" measuredH="27" zOrder="107" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Visualizar%20Tabela%20Nutricional</text>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::iPhone" x="1370" y="945" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="108" locked="false" isInGroup="-1"/>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Title" x="1400" y="1051" w="113" h="-1" measuredW="105" measuredH="23" zOrder="109" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>40463</color>
+        <size>20</size>
+        <text>NUTRINFO</text>
+      </controlProperties>
+    </control>
+    <control controlID="181" controlTypeID="com.balsamiq.mockups::Link" x="1519" y="1061" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="110" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>Sair</text>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Label" x="1519" y="1044" w="60" h="-1" measuredW="60" measuredH="18" zOrder="111" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>Fulano%20de%20Tal</text>
+      </controlProperties>
+    </control>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Webcam" x="1581" y="1044" w="36" h="34" measuredW="177" measuredH="146" zOrder="112" locked="false" isInGroup="-1"/>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::SubTitle" x="1405" y="1082" w="141" h="-1" measuredW="141" measuredH="21" zOrder="113" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Crumble%20de%20Ma%E7%E3</text>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::SubTitle" x="1407" y="1114" w="84" h="-1" measuredW="84" measuredH="17" zOrder="114" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Ingredientes%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::TextArea" x="1405" y="1130" w="195" h="87" measuredW="200" measuredH="140" zOrder="115" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>1%20kg%20de%20ma%E7%E3s%20descascadas%20e%20cortadas%20em%20cubos%0A1%20colher%20de%20ch%E1%20de%20canela%20em%20p%F3%0A200%20g%20de%20farinha%20de%20trigo%0A150%20g%20a%E7%FAcar%0A150%20g%20de%20manteiga</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::SubTitle" x="1407" y="1227" w="111" h="-1" measuredW="111" measuredH="17" zOrder="116" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Modo%20de%20Preparo%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="188" controlTypeID="com.balsamiq.mockups::TextArea" x="1405" y="1243" w="195" h="94" measuredW="200" measuredH="140" zOrder="117" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>1.%20Numa%20ta%E7a%20coloque%20a%20farinha%2C%20100%20g%20de%20a%E7%FAcar%20e%20a%20manteiga%0A2.%20Com%20a%20pontas%20dos%20dedos%2C%20misture%20a%20manteiga%20com%20os%20restantes%20ingredientes%0A3.%20O%20resultado%20%E9%20uma%20mistura%20granulada%20e%20fofa%0A4.%20Coloque%20a%20ma%E7%E3%20numa%20assadeira%20e%20polvilhe%20com%20a%20canela%20e%20com%2050%20g%20de%20a%E7%FAcar.%20Envolva%20com%20uma%20colher</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::Button" x="1423" y="1341" w="-1" h="-1" measuredW="190" measuredH="27" zOrder="118" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Visualizar%20Tabela%20Nutricional</text>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::ProgressBar" x="768" y="2401" w="197" h="20" measuredW="100" measuredH="20" zOrder="119" locked="false" isInGroup="-1"/>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Label" x="741" y="2428" w="-1" h="-1" measuredW="284" measuredH="21" zOrder="120" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Por%20favor%2C%20aguarde...%20Gerando%20Tabela%20Nutricional...</text>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::iPhone" x="1360" y="1890" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="121" locked="false" isInGroup="-1"/>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::SubTitle" x="1389" y="2037" w="-1" h="-1" measuredW="149" measuredH="21" zOrder="122" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Tabela%20Nutricional%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::Title" x="1389" y="2000" w="113" h="-1" measuredW="105" measuredH="23" zOrder="123" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>40463</color>
+        <size>20</size>
+        <text>NUTRINFO</text>
+      </controlProperties>
+    </control>
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::Link" x="1508" y="2010" w="-1" h="-1" measuredW="19" measuredH="16" zOrder="124" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>Sair</text>
+      </controlProperties>
+    </control>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Label" x="1508" y="1993" w="60" h="-1" measuredW="60" measuredH="18" zOrder="125" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>10</size>
+        <text>Fulano%20de%20Tal</text>
+      </controlProperties>
+    </control>
+    <control controlID="203" controlTypeID="com.balsamiq.mockups::Webcam" x="1570" y="1993" w="36" h="34" measuredW="177" measuredH="146" zOrder="126" locked="false" isInGroup="-1"/>
+    <control controlID="205" controlTypeID="com.balsamiq.mockups::DataGrid" x="1393" y="2117" w="214" h="135" measuredW="242" measuredH="146" zOrder="127" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hasHeader>true</hasHeader>
+        <rowHeight>16</rowHeight>
+        <size>10</size>
+        <text>%2C%20%2C%20%25%20VD%20*%0ACalorias%20%28valor%20energ%E9tico%29%2C%2067.73%20kcal%2C%203.39%20%25%0ACarboidratos%2C%2013.2%20g%2C%204.4%20%25%0AProte%EDnas%2C%201.56%20g%2C%202.09%20%25%0AGorduras%20totais%2C%200.93%20g%2C%201.69%20%25%0AGorduras%20saturadas%2C%200.57%20g%2C%202.6%20%25%0AFibra%20alimentar%2C%200.17%20g%2C%200.67%20%25%0AS%F3dio%2C%200%20mg%2C%200%20%25%0A%20%20</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="206" controlTypeID="com.balsamiq.mockups::Label" x="1390" y="2058" w="-1" h="-1" measuredW="73" measuredH="22" zOrder="128" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Arroz%20Doce</text>
+      </controlProperties>
+    </control>
+    <control controlID="207" controlTypeID="com.balsamiq.mockups::NumericStepper" x="1391" y="2082" w="-1" h="-1" measuredW="39" measuredH="24" zOrder="129" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1</text>
+      </controlProperties>
+    </control>
+    <control controlID="208" controlTypeID="com.balsamiq.mockups::Label" x="1433" y="2084" w="-1" h="-1" measuredW="92" measuredH="21" zOrder="130" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Colher%20de%20Sopa</text>
+      </controlProperties>
+    </control>
+    <control controlID="211" controlTypeID="com.balsamiq.mockups::TextArea" x="1393" y="2254" w="211" h="55" measuredW="200" measuredH="140" zOrder="131" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <size>10</size>
+        <text>%25%20Valores%20Di%E1rios%20de%20refer%EAncia%20com%20base%20em%20uma%20dieta%20de%202.000%20kcal%20ou%208400%20kJ.%20Seus%20valores%20di%E1rios%20podem%20ser%20maiores%20ou%20menores%20dependendo%20de%20suas%20necessidades%20energ%E9ticas.</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
