@@ -71,7 +71,7 @@
 		<valuelist name="Outline Code10" restrict="no" append="yes" autosuffix="no">
 		</valuelist>
 		<groupspec>
-			<outline current="101" focus="1"/>
+			<outline current="97" focus="1"/>
 		</groupspec>
 		<tasks>
 			<task ID="0" UniqueID="0" OutlineLevel="0" WBS="0" PercentComplete="12%" Name="nutrinfowbs" ActualDuration="11.8792d" Duration="99d" DurationVariance="99d" RemainingDuration="87.1208d" Start="2017-07-17T08:00" Finish="2017-11-30T17:00" EarlyStart="2017-07-17T08:00" EarlyFinish="2017-11-30T17:00" LateStart="2017-07-31T08:00" LateFinish="2017-11-30T17:00" ActualStart="2017-07-17T08:00" Critical="yes" Summary="yes"/>
@@ -116,8 +116,8 @@
 	</proj>
 	<printInfo mode="scale" orient="landscape" size="9" length="0" width="0" pagesWide="1" pagesHigh="1" scale="95%" bw="no" enlarge="no" byColumn="no" adjustPageBreaks="no" marginTop="36pt" marginLeft="36pt" marginBottom="36pt" marginRight="36pt"/>
 	<pageLayouts>
-		<pageLayoutSpec id="Gantt Chart Page Layout" BorderLegendFormat="outsideused">
-			<header>
+		<pageLayoutSpec id="Gantt Chart Page Layout" description="" BorderEveryPage="no" SheetNumbers="no" Border="yes" Gridlines="yes" BorderLegend="no" BorderLegendFormat="outsideused" TaskFieldLegend="no" SummaryFieldLegend="no" LegendPosition="abovefooter" ChartHAlign="left" ChartValign="top">
+			<header bkcolor="none">
 				<hfsection HAlign="left" Valign="center">
 					
 				</hfsection>
@@ -128,7 +128,7 @@
 					
 				</hfsection>
 			</header>
-			<footer>
+			<footer bkcolor="none">
 				<hfsection HAlign="left" Valign="center">
 					
 				</hfsection>
@@ -140,8 +140,8 @@
 				</hfsection>
 			</footer>
 		</pageLayoutSpec>
-		<pageLayoutSpec id="Network Chart Page Layout">
-			<header>
+		<pageLayoutSpec id="Network Chart Page Layout" description="" BorderEveryPage="no" SheetNumbers="no" Border="yes" Gridlines="yes" BorderLegend="no" BorderLegendFormat="insideused" TaskFieldLegend="no" SummaryFieldLegend="no" LegendPosition="abovefooter" ChartHAlign="left" ChartValign="top">
+			<header bkcolor="none">
 				<hfsection HAlign="left" Valign="center">
 					
 				</hfsection>
@@ -152,7 +152,7 @@
 					
 				</hfsection>
 			</header>
-			<footer>
+			<footer bkcolor="none">
 				<hfsection HAlign="left" Valign="center">
 					
 				</hfsection>
@@ -164,8 +164,8 @@
 				</hfsection>
 			</footer>
 		</pageLayoutSpec>
-		<pageLayoutSpec id="Task Sheet Page Layout" BorderEveryPage="yes" Border="no" Gridlines="no">
-			<header>
+		<pageLayoutSpec id="Task Sheet Page Layout" description="" BorderEveryPage="yes" SheetNumbers="no" Border="no" Gridlines="no" BorderLegend="no" BorderLegendFormat="insideused" TaskFieldLegend="no" SummaryFieldLegend="no" LegendPosition="abovefooter" ChartHAlign="left" ChartValign="top">
+			<header bkcolor="none">
 				<hfsection HAlign="left" Valign="center">
 					
 				</hfsection>
@@ -176,7 +176,7 @@
 					
 				</hfsection>
 			</header>
-			<footer>
+			<footer bkcolor="none">
 				<hfsection HAlign="left" Valign="center">
 					
 				</hfsection>
@@ -188,8 +188,8 @@
 				</hfsection>
 			</footer>
 		</pageLayoutSpec>
-		<pageLayoutSpec id="WBS Chart Page Layout" ChartHAlign="center">
-			<header>
+		<pageLayoutSpec id="WBS Chart Page Layout" description="" BorderEveryPage="no" SheetNumbers="no" Border="yes" Gridlines="yes" BorderLegend="no" BorderLegendFormat="insideused" TaskFieldLegend="no" SummaryFieldLegend="no" LegendPosition="abovefooter" ChartHAlign="center" ChartValign="top">
+			<header bkcolor="none">
 				<hfsection HAlign="left" Valign="center">
 					
 				</hfsection>
@@ -200,7 +200,7 @@
 					
 				</hfsection>
 			</header>
-			<footer>
+			<footer bkcolor="none">
 				<hfsection HAlign="left" Valign="center">
 					
 				</hfsection>
@@ -214,7 +214,7 @@
 		</pageLayoutSpec>
 	</pageLayouts>
 	<views current="WBS Chart View" current_wbs="WBS Chart View" current_nd="Network Chart View Basic" current_ts="Tracking Task Sheet View" current_gantt="Gantt Chart with Baseline">
-		<ts_view id="" pagelayout="Gantt Chart Page Layout" ganttchart="yes" fonttextpolicy="criticalpath" fontfillpolicy="criticalpath">
+		<ts_view id="View" pagelayout="Gantt Chart Page Layout" ganttchart="yes" fonttextpolicy="criticalpath" fontfillpolicy="criticalpath">
 			<columns>
 				<column field="ID" aligndata="center" width="40"/>
 				<column field="Name" aligndata="left" width="350"/>
@@ -375,7 +375,7 @@
 			<groupspec>
 			</groupspec>
 		</ts_view>
-		<ts_view id="" pagelayout="Gantt Chart Page Layout" ganttchart="yes" fonttextpolicy="criticalpath" fontfillpolicy="criticalpath">
+		<ts_view id="View" pagelayout="Gantt Chart Page Layout" ganttchart="yes" fonttextpolicy="criticalpath" fontfillpolicy="criticalpath">
 			<columns>
 				<column field="ID" aligndata="center" width="40"/>
 				<column field="Name" aligndata="left" width="350"/>
@@ -1638,7 +1638,7 @@
 </nd_diff>
 
 		</nd_view>
-		<ts_view id="" pagelayout="Gantt Chart Page Layout" ganttchart="yes" fonttextpolicy="criticalpath" fontfillpolicy="criticalpath">
+		<ts_view id="View" pagelayout="Gantt Chart Page Layout" ganttchart="yes" fonttextpolicy="criticalpath" fontfillpolicy="criticalpath">
 			<columns>
 				<column field="ID" aligndata="center" width="40"/>
 				<column field="Name" aligndata="left" width="350"/>
@@ -1799,7 +1799,7 @@
 			<groupspec>
 			</groupspec>
 		</ts_view>
-		<ts_view id="" pagelayout="Gantt Chart Page Layout" ganttchart="yes" fonttextpolicy="criticalpath" fontfillpolicy="criticalpath">
+		<ts_view id="View" pagelayout="Gantt Chart Page Layout" ganttchart="yes" fonttextpolicy="criticalpath" fontfillpolicy="criticalpath">
 			<columns>
 				<column field="ID" aligndata="center" width="40"/>
 				<column field="Name" aligndata="left" width="350"/>
