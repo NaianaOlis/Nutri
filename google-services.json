@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_number": "32836713225",
+    "firebase_url": "https://nutrinfo-be34e.firebaseio.com",
+    "project_id": "nutrinfo-be34e",
+    "storage_bucket": "nutrinfo-be34e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32836713225:android:ebca8b76ec085d29",
+        "android_client_info": {
+          "package_name": "com.app.nutrinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32836713225-9s76fafp518qnhfih1cvkcqsiq5t0irf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.nutrinfo",
+            "certificate_hash": "f562ce1a2f83ea9c745de2574126a03cc1d791d0"
+          }
+        },
+        {
+          "client_id": "32836713225-4slk9iev6i9ctgd4aedacng0vdjghscf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.nutrinfo",
+            "certificate_hash": "8f439e913b5571408cea9d6fe7c58f7b3b91f310"
+          }
+        },
+        {
+          "client_id": "32836713225-0qip3f0vb1ebfhf1m9dv0oroqs0t13di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCElET1S-0qDtRWfeuXWDTmpOZLRXEJJbI"
+        },
+        {
+          "current_key": "AIzaSyDBvRDTaYk35lMyAW35-YfFu6jdnCHRexs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32836713225-0qip3f0vb1ebfhf1m9dv0oroqs0t13di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

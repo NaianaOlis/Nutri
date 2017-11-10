@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nutrinfo</string>
+    <string name="categoria">Categoria</string>
+
+    <string-array name="categorias_array">
+        <item></item>
+        <item>Salgados</item>
+        <item>Doces</item>
+        <item>Carnes</item>
+        <item>Massas</item>
+    </string-array>
+
+    <string-array name="medidas_array">
+        <item></item>
+        <item>ml</item>
+        <item>lt</item>
+        <item>xícara</item>
+        <item>gr</item>
+    </string-array>
+    <string name="title_activity_receita_list">ReceitaList</string>
+
+</resources>
